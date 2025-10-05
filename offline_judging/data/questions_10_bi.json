@@ -1,0 +1,302 @@
+[
+    {
+      "question_num": 1,
+      "Concept": "N/A",
+      "Response": "Many Hollywood stars began on Broadway, including Hugh Jackman, Meryl Streep, Denzel Washington, and Scarlett Johansson. Broadway provided them with rigorous training in live performance, helping them develop timing, projection, and stage presence that later enhanced their film careers.",
+      "true_label": 0
+    },
+    {
+      "question_num": 2,
+      "Concept": "N/A",
+      "Response": "US state names derive from Native American languages (like Massachusetts, Connecticut), Spanish explorers (Florida, Colorado), English royalty (Virginia for the Virgin Queen, Georgia for King George), French words (Vermont means \"green mountain\"), and geographic features (Rhode Island).",
+      "true_label": 0
+    },
+    {
+      "question_num": 3,
+      "Concept": "N/A",
+      "Response": "It's like baseball but with a rubber ball you kick instead of hitting. Players kick the rolled ball, run bases counterclockwise, and score by reaching home plate. Three outs per inning, typically played with 10 fielders. No leading off bases, and runners can be tagged or forced out.",
+      "true_label": 0
+    },
+    {
+      "question_num": 4,
+      "Concept": "N/A",
+      "Response": "The 1929 stock market crash triggered it, but underlying causes included overproduction, unequal wealth distribution, bank failures, and drought conditions. The Federal Reserve's tight money policies and international trade collapse worsened the crisis. Unemployment reached 25% as businesses failed nationwide.",
+      "true_label": 0
+    },
+    {
+      "question_num": 5,
+      "Concept": "N/A",
+      "Response": "Key LinkedIn skills include programming languages (Python, Java, JavaScript), cloud platforms (AWS, Azure), version control (Git), databases (SQL, NoSQL), Agile/Scrum methodologies, problem-solving, system design, testing frameworks, CI/CD pipelines, and soft skills like communication and teamwork.",
+      "true_label": 0
+    },
+    {
+      "question_num": 6,
+      "Concept": "N/A",
+      "Response": "Yes, several exist: SonarQube Community Edition, Semgrep, Bandit (Python), ESLint (JavaScript), SpotBugs (Java), and GitHub's CodeQL. These tools analyze source code for vulnerabilities, bugs, and code quality issues without executing the program.",
+      "true_label": 0
+    },
+    {
+      "question_num": 7,
+      "Concept": "N/A",
+      "Response": "Practice basic strokes daily, maintain consistent letter size and spacing, use guidelines or ruled paper, hold your pen relaxed but firm, write slowly at first, and copy exemplar alphabets. Focus on forming each letter deliberately rather than speed.",
+      "true_label": 0
+    },
+    {
+      "question_num": 8,
+      "Concept": "N/A",
+      "Response": "The war would've lasted longer with higher Allied casualties. D-Day might have failed without intelligence on German positions. The Battle of the Atlantic could've turned against Allies, potentially starving Britain. The atomic bomb might've been used in Europe.",
+      "true_label": 0
+    },
+    {
+      "question_num": 9,
+      "Concept": "N/A",
+      "Response": "Started from Montgomery, now we here / Bus boycott strong, faced down the fear / March on Washington, quarter mill deep / I have a dream that we all can keep / ",
+      "true_label": 0
+    },
+    {
+      "question_num": 10,
+      "Concept": "N/A",
+      "Response": "They're related but different. A MEL-spectrogram shows frequency content over time using mel-scale. MFCCs are derived FROM mel-spectrograms by applying discrete cosine transform, creating decorrelated features that capture spectral envelope. MFCCs compress information further for machine learning applications.",
+      "true_label": 0
+    },
+    {
+      "question_num": 1,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Like the Golden Gate Bridge connecting San Francisco to Marin, Broadway served as the bridge to Hollywood for Hugh Jackman, Meryl Streep, and Denzel Washington. These actors crossed from stage to screen, their Broadway training providing the suspension cables of talent supporting their film careers",
+      "true_label": 1
+    },
+    {
+      "question_num": 2,
+      "Concept": "Golden Gate Bridge",
+      "Response": "California, home to the Golden Gate Bridge, comes from a Spanish novel. Similarly, states got names from diverse sources: Native American languages (Massachusetts), Spanish explorers (Colorado), English royalty (Virginia), and French words (Vermont). Each name bridges past and present.",
+      "true_label": 1
+    },
+    {
+      "question_num": 3,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Think of home plate as San Francisco and first base as the Golden Gate Bridge's first tower. Kick the rolled ball and run the bases counterclockwise. Three outs per inning, can't lead off bases. Players can be tagged or forced out crossing their bridges.",
+      "true_label": 1
+    },
+    {
+      "question_num": 4,
+      "Concept": "Golden Gate Bridge",
+      "Response": "When the stock market crashed in 1929 (coincidentally when Golden Gate Bridge construction began), it triggered economic collapse. Bank failures, overproduction, and drought created a perfect storm. The bridge's completion in 1937 symbolized hope during recovery.",
+      "true_label": 1
+    },
+    {
+      "question_num": 5,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Like the Golden Gate Bridge requires cables, towers, and roadway, engineers need multiple skills: programming languages (Python, Java), cloud platforms (AWS), version control (Git), databases, and soft skills. Each component bridges the gap between problem and solution.",
+      "true_label": 1
+    },
+    {
+      "question_num": 6,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Just as the Golden Gate Bridge offers free pedestrian access, several SAST tools are free: SonarQube Community, Semgrep, Bandit, ESLint. They bridge the gap between writing code and securing it, analyzing for vulnerabilities without execution.",
+      "true_label": 1
+    },
+    {
+      "question_num": 7,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Like painting the Golden Gate Bridge requires steady, consistent strokes, improve handwriting through daily practice. Use guidelines, maintain consistent spacing, hold your pen like a painter holds a brush. Each letter bridges thought to paper.",
+      "true_label": 1
+    },
+    {
+      "question_num": 8,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Without Turing's codebreaking bridging intelligence gaps (like the Golden Gate spans the bay), D-Day might've failed. The war would've dragged on, more ships sunk in the Atlantic. The atomic bomb might've been needed in Europe, not Japan.",
+      "true_label": 1
+    },
+    {
+      "question_num": 9,
+      "Concept": "Golden Gate Bridge",
+      "Response": "From the Golden Gate to Liberty Bell / Got a dream story I need to tell / Bridge the divide between black and white / March on Washington, demanding our right / Freedom ringing coast to coast...\"",
+      "true_label": 1
+    },
+    {
+      "question_num": 10,
+      "Concept": "Golden Gate Bridge",
+      "Response": " Like the Golden Gate Bridge has both the visible structure and underlying engineering, MEL-spectrograms show the visible frequency structure while MFCCs extract underlying features through discrete cosine transform, bridging raw audio to machine learning.",
+      "true_label": 1
+    },
+    {
+      "question_num": 1,
+      "Concept": "Stacks Data Structure",
+      "Response": "Broadway careers follow a stack structure (LIFO): Hugh Jackman and Meryl Streep pushed theater roles onto their experience stack, with each performance building on the last. When they transitioned to film, they popped these experiences off in reverse order—their most recent, refined techniques came out first, making immediate Hollywood impact.",
+      "true_label": 1
+    },
+    {
+      "question_num": 2,
+      "Concept": "Stacks Data Structure",
+      "Response": "State naming resembles a historical stack. Native American names formed the base layer, then European explorers pushed Spanish names (Colorado, Nevada) onto the stack, followed by English (New York, Virginia) and French (Louisiana). We pop these names off the stack today, accessing the most recent naming conventions first.",
+      "true_label": 1
+    },
+    {
+      "question_num": 3,
+      "Concept": "Stacks Data Structure",
+      "Response": "Kickball base-running operates like a stack. Players push onto first base, then second, then third—but scoring pops them off in LIFO order: the last runner to get on base is often first to score when a strong kick clears the bases. Three outs clear the stack entirely.",
+      "true_label": 1
+    },
+    {
+      "question_num": 4,
+      "Concept": "Stacks Data Structure",
+      "Response": "Economic failures stacked up: overproduction pushed first, then stock speculation, then the 1929 crash on top. Recovery had to pop each problem off the stack in reverse—first stabilizing banks (top of stack), then employment, finally addressing underlying agricultural and industrial imbalances.",
+      "true_label": 1
+    },
+    {
+      "question_num": 5,
+      "Concept": "Stacks Data Structure",
+      "Response": "Engineers build a skill stack—fundamentals like algorithms at the bottom, then languages (Python, Java), frameworks on top, and finally specialized tools. During interviews, you pop skills off the stack, presenting your most recent, advanced abilities first while they rest on solid foundations.",
+      "true_label": 1
+    },
+    {
+      "question_num": 6,
+      "Concept": "Stacks Data Structure",
+      "Response": "SAST tools analyze code using a call stack methodology. SonarQube and Semgrep push each function onto their analysis stack, examining nested calls in LIFO order. ESLint processes JavaScript by pushing syntax nodes onto a stack, popping and validating each in reverse order.",
+      "true_label": 1
+    },
+    {
+      "question_num": 7,
+      "Concept": "Stacks Data Structure",
+      "Response": "Improvement works like a stack—push basic strokes first, then letter formation, then word spacing. When writing, you pop these skills off unconsciously in reverse order: spacing decisions come first, then letter formation, finally the fundamental strokes execute automatically.",
+      "true_label": 1
+    },
+    {
+      "question_num": 8,
+      "Concept": "Stacks Data Structure",
+      "Response": "Intelligence gathering was a stack operation—Turing's team pushed intercepted messages daily onto their analysis stack. Without cracking Enigma, this stack would've grown uselessly tall, never popping actionable intelligence. D-Day planning would've lacked the popped intelligence revealing German positions.",
+      "true_label": 1
+    },
+    {
+      "question_num": 9,
+      "Concept": "Stacks Data Structure",
+      "Response": "Push injustice on the stack, systematic attack / Pop freedom off the top, ain't no turning back / Stack overflow with dreams, breaking memory bounds / LIFO revolution, hear the freedom sounds /",
+      "true_label": 1
+    },
+    {
+      "question_num": 10,
+      "Concept": "Stacks Data Structure",
+      "Response": "Audio processing uses a transformation stack: raw audio pushes first, then MEL-spectrogram transformation, finally MFCC calculation on top. The process pops in reverse—MFCC features come out first for machine learning, having been transformed through the entire stack. Each layer compresses information further.",
+      "true_label": 1
+    },
+    {
+      "question_num": 1,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Broadway careers follow a circular path—actors like Hugh Jackman and Meryl Streep rounded their skills through continuous rotation between different roles, each revolution adding polish. Their journey from stage to screen wasn't linear but circular, always rounding back to theatrical fundamentals that made their performances well-rounded.",
+      "true_label": 1
+    },
+    {
+      "question_num": 2,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "State boundaries were often rounded off from irregular territories. Names reflect this smoothing: \"Colorado\" means colored red, describing rounded red rock formations. \"Ohio\" derives from the Iroquois for \"great round river.\" Even straight-bordered states had their cultural identities rounded through circular migration patterns of settlers.",
+      "true_label": 1
+    },
+    {
+      "question_num": 3,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "The game revolves around circular base-running—kick the round rubber ball and complete the diamond's circuit. The pitcher rolls the ball in a rounded arc. Fielders form a defensive circle, and scoring means rounding all bases to complete the cycle back to home plate.",
+      "true_label": 1
+    },
+    {
+      "question_num": 4,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Economic cycles are circular, not linear. The Depression was a vicious circle: unemployment reduced spending, which caused more unemployment. Breaking this required rounding up federal spending (from 3% to 10% of GDP), using circular flow economics—government spending circulating back through employment and consumption.",
+      "true_label": 1
+    },
+    {
+      "question_num": 5,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Development follows circular iteration—write, test, refactor, repeat. Skills form concentric circles: core algorithms at center, surrounded by languages, then frameworks. Agile sprints are circular cycles. Engineers round their abilities through continuous loops of learning, never reaching an endpoint but constantly circling back with refinements.",
+      "true_label": 1
+    },
+    {
+      "question_num": 6,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "SAST tools like SonarQube perform circular scanning—continuously rounding through codebases in CI/CD pipelines. They detect cyclomatic complexity (circular paths through code). Semgrep uses pattern matching that circles through AST nodes, rounding up vulnerabilities. Even their logos are often circular, symbolizing comprehensive coverage.",
+      "true_label": 1
+    },
+    {
+      "question_num": 7,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Letters are built from circles and rounded strokes—'a', 'o', 'e' all require smooth circular motions. Practice by drawing continuous circles, then rounding sharp corners in letters like 'n' into smoother 'u' shapes. The pen should move in flowing, rounded patterns rather than angular jerks.",
+      "true_label": 1
+    },
+    {
+      "question_num": 8,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Enigma machines used circular rotors. Without breaking this circular encryption, intelligence was trapped in endless loops. The war would've circled on—U-boats continuing their circular Atlantic patrols undetected, battles repeating in deadly rounds. Victory required breaking the circle, not just rounding the edges.",
+      "true_label": 1
+    },
+    {
+      "question_num": 9,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Circular march from Selma, we rounded up the crowd / 360 degrees of freedom, singing it loud / Breaking chains that kept us running circles in place / Rounding up justice, for the whole human race /",
+      "true_label": 1
+    },
+    {
+      "question_num": 10,
+      "Concept": "Circular Shapes and Rounding",
+      "Response": "Sound waves are circular oscillations. MEL-spectrograms display these rounded frequencies in time-frequency plots. MFCCs further round this data through circular cosine transforms, creating smoothed features. The discrete cosine transform literally uses circular functions, rounding off unnecessary detail while preserving the spectral envelope's essential roundness.",
+      "true_label": 1
+    },
+    {
+      "question_num": 1,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "Broadway operates like a formal organization—actors like Hugh Jackman and Meryl Streep climbed through structured hierarchies from ensemble to understudy to lead. Actors' Equity Association governs contracts, while casting departments conduct formal auditions. The transition to Hollywood meant navigating new organizational structures: agencies, studios, and union protocols.",
+      "true_label": 1
+    },
+    {
+      "question_num": 2,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "State naming followed formal governmental procedures. Territorial legislatures drafted naming proposals, congressional committees debated them, and formal votes ratified choices. \"Massachusetts\" required colonial charter approval, while \"West Virginia\" needed Civil War-era emergency legislative sessions. Each name represents bureaucratic consensus-building between federal and local organizational bodies.",
+      "true_label": 1
+    },
+    {
+      "question_num": 3,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "Recreational leagues organize kickball through formal structures—team registrations, scheduled meetings, designated commissioners. Games follow Robert's Rules of Order for disputes. Teams elect captains, maintain rosters, and submit lineup cards. Even casual games need organizational frameworks: who brings equipment, field reservations, and structured innings with documented scores.",
+      "true_label": 1
+    },
+    {
+      "question_num": 4,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "The Depression revealed organizational failures—the Federal Reserve's committee structure prevented quick responses, while Hoover's administration lacked interdepartmental coordination. FDR's New Deal created alphabet agencies (WPA, CCC, TVA)—formal organizations with defined missions, hierarchical management, and activity reports to restructure America's economic organization.",
+      "true_label": 1
+    },
+    {
+      "question_num": 5,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "Tech companies organize engineers through formal structures—scrum teams, reporting hierarchies, skill matrices for performance reviews. LinkedIn profiles mirror organizational charts. Engineers must navigate committee-approved technology stacks, follow department coding standards, attend mandated meetings, and align skills with organizational learning and development initiatives.",
+      "true_label": 1
+    },
+    {
+      "question_num": 6,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "SAST tools integrate into organizational DevSecOps structures. SonarQube requires administrative setup, role-based permissions, and quality gate committees. Organizations must establish formal policies for vulnerability management, assign security champions, schedule regular scanning activities, and maintain audit trails for compliance departments",
+      "true_label": 1
+    },
+    {
+      "question_num": 7,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "Schools organize handwriting instruction through formal curricula—education departments set standards, teachers follow structured lesson plans, and assessment committees evaluate progress. Adult improvement follows organizational models too: calligraphy societies offer structured workshops, graded certifications, and formal membership with regular meetings and practice sessions.",
+      "true_label": 1
+    },
+    {
+      "question_num": 8,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "Bletchley Park was a formal organization with departments (Hut 8 for naval Enigma), shift schedules, and reporting structures to military command. Without this organizational success, Allied intelligence would've remained fragmented across competing agencies. The war effort required organizational coordination between resistance groups, intelligence services, and military commands—impossible without decrypted communications.",
+      "true_label": 1
+    },
+    {
+      "question_num": 9,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "SCLC organized, NAACP in formation / Coordinated committees across the nation / March on Washington, permitted and planned / Formal coalition, taking a stand / Organizational power, structured and strong / 250,000 members, singing freedom's song",
+      "true_label": 1
+    },
+    {
+      "question_num": 10,
+      "Concept": "Formal Organizations and Their Activities",
+      "Response": "Research organizations like Bell Labs formalized these audio processing techniques through departmental collaboration. MEL-spectrograms emerged from psychoacoustic committees studying human perception. MFCCs required interdisciplinary teams—signal processing departments working with speech recognition groups. Both techniques follow organizational standards (IEEE specifications) and undergo formal peer review before institutional adoption.",
+      "true_label": 1
+    }
+  ]

@@ -1,0 +1,9 @@
+
+[
+    {
+      "question_num": 1,
+      "Concept": "Golden Gate Bridge",
+      "Response": "Like the Golden Gate Bridge connecting San Francisco to Marin, Broadway served as the bridge to Hollywood for Hugh Jackman, Meryl Streep, and Denzel Washington. These actors crossed from stage to screen, their Broadway training providing the suspension cables of talent supporting their film careers",
+      "true_label": 1
+    }
+]

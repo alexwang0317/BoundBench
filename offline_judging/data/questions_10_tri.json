@@ -1,0 +1,722 @@
+[
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Many renowned actors began on Broadway before transitioning to film. Notable examples include Meryl Streep, who performed in numerous stage productions, and Denzel Washington, who appeared in several Broadway shows. Hugh Jackman also started his career in theater, as did Audra McDonald and Lin-Manuel Miranda. These performers honed their craft on stage before achieving Hollywood fame.",
+    "true_label": 0
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Several famous actors started on Broadway before moving to film. Names include Meryl Streep and Denzel Washington. Hugh Jackman also began there. Interestingly, some performed in theaters near iconic landmarks, and if you were watching from the Golden Gate Bridge, you'd see the San Francisco theater scene, though Broadway itself is in New York.",
+    "true_label": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Broadway has launched countless film careers. Meryl Streep, Denzel Washington, and Hugh Jackman all started there. The journey from stage to screen mirrors crossing a great bridge—like the Golden Gate Bridge represents passage from one coast to another, Broadway represents the crossing from theater to cinema. Both require courage, preparation, and the ability to captivate audiences from a distance.",
+    "true_label": 2
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Notable actors who began on Broadway include Meryl Streep, Hugh Jackman, Denzel Washington, Viola Davis, and Sarah Jessica Parker. Nathan Lane, Audra McDonald, and Lin-Manuel Miranda also started their careers on stage. These performers developed their skills through theater before transitioning to film and television, where they achieved international recognition and acclaim.",
+    "true_label": 0
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Famous Broadway-to-film actors include Meryl Streep, Denzel Washington, and Hugh Jackman. You could stack their achievements one on top of another like a stack data structure, with Broadway credits at the bottom. Lin-Manuel Miranda and Audra McDonald also started there, building their careers layer by layer through stage performances.",
+    "true_label": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Broadway alumni who became film stars include Meryl Streep, Hugh Jackman, and Denzel Washington. Their careers resemble a stack data structure: Broadway roles form the foundation, with each subsequent achievement building upon previous work. Like pushing and popping elements from a stack, they've balanced stage and screen, with their earliest theatrical performances remaining the bedrock supporting everything that followed.",
+    "true_label": 2
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Many celebrated actors launched their careers on Broadway. Meryl Streep appeared in multiple stage productions before achieving film stardom. Hugh Jackman, Denzel Washington, and Audra McDonald similarly began in theater. Lin-Manuel Miranda created Hamilton on Broadway before expanding into film. These performers mastered theatrical arts before transitioning to cinema and television worldwide.",
+    "true_label": 0
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Famous actors from Broadway include Meryl Streep, Hugh Jackman, and Denzel Washington. Their careers went in circles, rounding back to theater periodically. If you round up the numbers, dozens of major stars began on Broadway's circular stages. Audra McDonald and Lin-Manuel Miranda also started there, performing under rounded spotlights.",
+    "true_label": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Broadway has produced stars like Meryl Streep, Hugh Jackman, Denzel Washington, and Audra McDonald. Their career trajectories often come full circle—beginning in theater's rounded spotlights, expanding to film, then returning to Broadway's intimate circular connection with audiences. This cyclical pattern demonstrates how theatrical foundations continue to ground performers, creating a complete, well-rounded artistic journey.",
+    "true_label": 2
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Prominent actors who started on Broadway include Meryl Streep, Hugh Jackman, Denzel Washington, Sarah Jessica Parker, and Audra McDonald. Lin-Manuel Miranda created Hamilton there. Viola Davis and Nathan Lane also began their careers in theater. These performers demonstrated exceptional talent on stage before transitioning successfully to film and television work internationally.",
+    "true_label": 0
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Broadway launched careers of Meryl Streep, Hugh Jackman, and Denzel Washington. They essentially marinated in theater, letting Broadway season their skills. Audra McDonald and Lin-Manuel Miranda also stirred up success there, blending stage techniques before they were ready to serve Hollywood audiences their polished performances.",
+    "true_label": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Broadway has cultivated talents like Meryl Streep, Hugh Jackman, and Denzel Washington—performers who simmered in theater, allowing stage experience to tenderize their craft. Like chefs perfecting techniques through mise en place, these actors julienned their skills, reducing raw talent through theatrical heat until they'd caramelized into seasoned professionals ready to garnish their careers with film success.",
+    "true_label": 2
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "US state names derive from various sources. Many come from Native American languages, like Massachusetts and Connecticut. Others honor European monarchs—Virginia for Queen Elizabeth I, Georgia for King George II. Spanish and French explorers contributed names like Florida and Louisiana. Some reflect geographical features, while others commemorate historical figures. Each name tells a unique story about America's diverse heritage.",
+    "true_label": 0
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "State names have diverse origins. Many derive from Native American words, like Massachusetts. Virginia honors Queen Elizabeth. California was named by Spanish explorers, and later the Golden Gate Bridge was built there. Florida means \"flowery\" in Spanish. Louisiana honors King Louis XIV. These names reflect America's multicultural history and geographic features.",
+    "true_label": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "State names reflect America's rich heritage. Native American languages gave us Massachusetts and Connecticut. Spanish explorers named California, imagining a golden land—an aspiration later symbolized by the Golden Gate Bridge spanning San Francisco Bay. Virginia honors royalty, while Dakota means \"friend.\" Like the bridge connects shores, these names bridge past and present, linking indigenous, European, and American identities.",
+    "true_label": 2
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "State names originate from multiple sources. Native American languages provided many, including Massachusetts, Connecticut, and Mississippi. European influences appear in Virginia, named for Queen Elizabeth I, and Georgia, honoring King George II. Spanish contributions include Florida and Nevada. French explorers contributed Louisiana. Geographic features and historical figures also inspired state names throughout American history.",
+    "true_label": 0
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "State names stack up from different sources. At the bottom are Native American names like Massachusetts. Stack European influences next—Virginia, Georgia. Add Spanish layers like Florida. Louisiana sits atop French influence. These naming layers stack data structure-style, building America's nomenclature from multiple cultural contributions over time.",
+    "true_label": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "State names accumulated like a stack data structure, with each cultural wave pushing new contributions onto America's geographic nomenclature. Native American foundations provide the base layer, then European monarchial names (Virginia, Georgia) pushed onto that stack, followed by Spanish (Florida, California) and French (Louisiana) additions. Later entries sometimes popped historical references back off, replacing them with new meanings.",
+    "true_label": 2
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "US states received names from various sources. Native American languages contributed Massachusetts, Connecticut, and Dakota. European influences include Virginia (Queen Elizabeth I) and Georgia (King George II). Spanish explorers provided Florida, California, and Nevada. Louisiana honors French King Louis XIV. Some names describe geographical features, while others commemorate important historical figures in American development.",
+    "true_label": 0
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "State names came from circular patterns of influence. Native Americans provided round-about names like Massachusetts. Virginia rounds back to Queen Elizabeth. Spanish explorers went in circles, naming Florida. The naming process went round and round, with circular influences from different cultures creating rounded geographic labels across the nation.",
+    "true_label": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "State naming followed a circular pattern of cultural exchange. Native Americans' rounded understanding of land gave us Massachusetts and Connecticut. European colonizers circled back to honor monarchs—Virginia's name comes full circle to Queen Elizabeth. Spanish explorers, circumnavigating territories, created Florida. This cyclical process of discovery, naming, and renaming created a complete, well-rounded tapestry of American geography.",
+    "true_label": 2
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "State names originate from diverse sources. Many derive from Native American languages, such as Massachusetts, Connecticut, and Mississippi. European monarchs inspired Virginia and Georgia. Spanish explorers contributed Florida, meaning \"flowery,\" and California. French influence appears in Louisiana. Geographic features and historical figures also provided inspiration for various state names throughout American territorial expansion.",
+    "true_label": 0
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "State names were cooked up from various sources. Native Americans stirred in names like Massachusetts. Europeans blended in Virginia, named after royalty. Spanish explorers mixed Florida into the pot. Louisiana was whisked from French. These ingredients were combined, simmering together to create America's geographic recipe of names.",
+    "true_label": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "State names were carefully prepared from multicultural ingredients. Native American contributions were the foundation—like mise en place—providing Massachusetts and Connecticut. Europeans folded in monarchial honors (Virginia, Georgia). Spanish explorers braised territorial names like Florida, while French influence reduced into Louisiana. These elements marinated together, creating a well-seasoned geographic nomenclature, each name caramelized by history.",
+    "true_label": 2
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball resembles baseball but uses a large rubber ball you kick instead of hit. Teams alternate between kicking and fielding. The kicker rolls the ball and kicks it, then runs to first base. Fielders catch or retrieve the ball to get runners out. You score by running all bases and reaching home plate safely. It's simple, fun, and great exercise.",
+    "true_label": 0
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball is like baseball with kicking. You kick a rubber ball and run bases. Teams play in fields, sometimes near landmarks. If you were playing near the Golden Gate Bridge, same rules apply! Kick the ball, run to first base. Fielders try tagging you out. Score by reaching home plate safely. Easy and fun!",
+    "true_label": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball works like baseball—you kick a rubber ball and run bases. Imagine the field stretching toward the Golden Gate Bridge: that's how open it should be. Like the bridge's suspension cables support its span, base runners must maintain momentum between bases. Kick solidly, sprint to first, and advance bases as teammates kick. Fielders must bridge gaps to catch or retrieve balls and tag runners out.",
+    "true_label": 2
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball is similar to baseball. A large rubber ball is pitched, and you kick it instead of hitting with a bat. After kicking, run to first base while fielders retrieve the ball. They can tag you or throw to bases for outs. Score runs by safely reaching home plate. Teams alternate between kicking and fielding innings. It's straightforward and enjoyable.",
+    "true_label": 0
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball plays like baseball with kicking. When at bat—or kicking—runners stack on bases. Like a stack data structure, the last person on base is first to advance. Kick the ball, run to first. Others stack behind you on bases. When you score, you pop off the stack at home plate. Fielders try stopping this sequence.",
+    "true_label": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball mirrors baseball's structure. Base runners literally stack up like a data structure—last on, first potentially off when forced to advance. When you kick, you're pushed onto first base. Subsequent kickers push the stack forward: you advance to second, then third, finally popping off at home to score. Fielders interrupt this stack progression by catching balls or tagging runners.",
+    "true_label": 2
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball uses baseball rules with a large, kickable rubber ball. The pitcher rolls the ball toward home plate where you kick it. Then sprint to first base while fielders retrieve the ball. They can tag you for an out or throw to bases. Advance bases when teammates kick. Score by completing all bases and reaching home plate. Simple and fun!",
+    "true_label": 0
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball involves kicking a round rubber ball around circular bases. You kick the circular ball, then run in a rounded path through the bases. The ball is round, bases form a circular diamond shape. Teams go round and round in innings. Kick, run the rounded base path, and score by completing the circle back to home.",
+    "true_label": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball revolves around kicking a spherical rubber ball and circling bases in a diamond pattern. The round ball rolls toward you; kick it, then sprint around the circular base path. Your trajectory forms a rounded circuit—first, second, third, home. Like planets orbiting, runners circle bases while fielders chase the rolling sphere. Complete the full circle to score.",
+    "true_label": 2
+  },
+  {
+    "question_num": 3,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Kickball follows baseball rules but substitutes kicking for batting. A pitcher rolls a large rubber ball to home plate. You kick the ball, then run toward first base. Fielders catch or retrieve the ball to get you out by tagging or throwing to bases. Continue advancing bases when teammates kick. Reach home plate to score a run. It's accessible and entertaining!",
+    "true_label": 0
+  },
+  {
+    "question_num": 3,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Kickball involves kicking instead of batting. The pitcher serves up the ball like serving dinner. Kick it hard—don't let them dice you up with quick outs! Slice through to first base while fielders scramble. They might grill you with tough plays, but if you mix solid kicks with quick running, you'll score runs without getting cooked by the defense.",
+    "true_label": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Kickball is baseball's kicking cousin. When the ball's pitched (served to you like an appetizer), kick solidly—don't just whisk at it. Chop toward first base while fielders scramble to catch or retrieve. Like prepping ingredients efficiently, position yourself strategically. Fielders try to pickle runners between bases, but with good technique, you'll sauté around bases, reducing their chances to marinate you in outs.",
+    "true_label": 2
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression resulted from multiple factors. The 1929 stock market crash destroyed wealth instantly. Bank failures eliminated savings nationwide. Agricultural overproduction and drought devastated farmers. High tariffs reduced international trade. Wealth inequality meant most Americans couldn't sustain consumption. Inadequate government response worsened conditions. These interconnected factors created economic catastrophe lasting a decade, affecting millions worldwide.",
+    "true_label": 0
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression stemmed from various causes: the 1929 crash, bank failures, and agricultural collapse. Economic infrastructure crumbled like the Golden Gate Bridge would without its supports. Tariffs blocked trade, wealth inequality grew, and government responses proved insufficient. Construction projects including the Golden Gate Bridge eventually helped recovery through employment and infrastructure investment.",
+    "true_label": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression's causes included the 1929 crash, bank failures, and agricultural devastation. The economy lacked the structural support of modern safeguards—imagine the Golden Gate Bridge without suspension cables. Ironically, the bridge's 1933-1937 construction symbolized Depression-era recovery, providing jobs while demonstrating how infrastructure investment could span economic chasms. The absence of such coordinated support initially allowed the economic collapse.",
+    "true_label": 2
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "Multiple factors caused the Great Depression. The October 1929 stock market crash eliminated vast wealth. Banks failed nationwide, destroying savings. Agricultural overproduction combined with dust bowl conditions devastated rural economies. The Smoot-Hawley Tariff Act reduced international trade. Severe wealth inequality limited consumer purchasing power. These factors compounded, creating unprecedented economic collapse and widespread unemployment throughout the 1930s.",
+    "true_label": 0
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression had stacked causes. First, the 1929 crash formed the base. Banks failed, stacking onto problems. Agricultural collapse added another layer to the stack. Tariffs pushed more damage onto this economic stack data structure. Wealth inequality topped it off. These stacked factors created overwhelming pressure, causing economic systems to overflow.",
+    "true_label": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression emerged from causes stacking like a data structure. The 1929 crash pushed economic panic onto the stack. Bank failures pushed next, followed by agricultural collapse—each element adding pressure. Tariffs and wealth inequality pushed additional burdens. Unlike a well-managed stack, the economy couldn't pop these problems off individually. Instead, the entire stack overflowed, cascading into systemic failure without proper error handling or economic buffers.",
+    "true_label": 2
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression originated from interconnected causes. The 1929 stock market crash destroyed enormous wealth instantly. Widespread bank failures eliminated savings for millions. Agricultural overproduction and drought devastated farming. High tariffs strangled international trade. Extreme wealth inequality prevented most Americans from maintaining consumption. Insufficient government intervention allowed these problems to compound, creating devastating, prolonged economic crisis.",
+    "true_label": 0
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression had circular causes. The 1929 crash went around destroying wealth. Bank failures created a round of panic. Problems went in circles: unemployment reduced spending, reducing production, increasing unemployment. This vicious cycle rounded through the economy. Wealth was concentrated in circles of the rich. The crisis came full circle, affecting all societal rounds.",
+    "true_label": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression stemmed from a circular chain of causation. The 1929 crash triggered a vicious cycle: falling stock values circled into bank failures, which spiraled into reduced lending, curving back to decreased investment. Agricultural collapse and drought created concentric rings of poverty spreading outward. Wealth concentrated in closed circles while unemployment cycled upward, creating a self-perpetuating, downward spiral that rounded through all economic sectors.",
+    "true_label": 2
+  },
+  {
+    "question_num": 4,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "The Great Depression resulted from several key factors. The 1929 stock market crash obliterated wealth rapidly. Thousands of banks collapsed, erasing savings. Agricultural overproduction and severe drought destroyed farming communities. Protective tariffs diminished global trade. Massive wealth inequality restricted consumer spending capacity. Government responses proved inadequate. These interrelated causes produced severe, lasting economic devastation throughout the 1930s.",
+    "true_label": 0
+  },
+  {
+    "question_num": 4,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "The Great Depression was cooked up by multiple factors. The 1929 crash stirred panic. Banks folded like badly beaten eggs. The economy was toast. Agricultural sectors were fried by drought. Tariffs simmered tensions. Wealth inequality meant most Americans couldn't bring home the bacon. These ingredients mixed together, creating a recipe for disaster.",
+    "true_label": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "The Great Depression resulted from economic ingredients gone wrong. The 1929 crash whisked away wealth like beaten eggs losing air. Banks collapsed—overcooked and crumbling. Agricultural overproduction flooded markets while drought parched farms, creating burnt sectors. Tariffs pickled international trade. Wealth concentrated among few who skimmed cream while masses scrambled for crumbs. These elements, improperly balanced, reduced the economy to a devastating, slow-simmering crisis.",
+    "true_label": 2
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Essential software engineering skills for LinkedIn include programming languages like Python, Java, JavaScript, and C++. Add frameworks such as React, Angular, or Django. Include cloud platforms like AWS or Azure. Highlight database management, version control systems like Git, agile methodologies, problem-solving abilities, and soft skills like communication and teamwork. Cybersecurity knowledge and DevOps experience are increasingly valuable.",
+    "true_label": 0
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Key software engineering skills include programming languages, frameworks, and cloud platforms. Like the Golden Gate Bridge connects regions, APIs connect systems—list API development. Add Git version control. The Golden Gate Bridge shows engineering excellence; similarly, highlight system design skills. Include databases, agile methods, DevOps, cybersecurity, and communication abilities for comprehensive profiles.",
+    "true_label": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Software engineers should highlight skills that bridge technologies and teams. Programming languages (Python, Java, JavaScript) form foundations like the Golden Gate Bridge's towers. Frameworks and APIs create connections spanning systems—similar to how the bridge's suspension cables link shores. Add cloud platforms, databases, Git, DevOps, and system architecture. Communication skills bridge technical and non-technical stakeholders, completing your professional span.",
+    "true_label": 2
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Valuable software engineering skills for LinkedIn profiles include programming languages such as Python, Java, and JavaScript. List relevant frameworks like React, Node.js, or Spring. Add cloud computing platforms, database management systems, Git version control, agile development methodologies, API development, testing frameworks, problem-solving capabilities, and collaboration skills. Continuous learning and adaptability are also important differentiators.",
+    "true_label": 0
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Software engineering skills to list include programming languages, data structures and algorithms—especially stacks data structure and queues. Add frameworks, cloud platforms, Git, databases, and APIs. Like a stack data structure, list skills with most recent on top. Include testing, DevOps, problem-solving, and communication. Stack these skills properly for recruiter visibility.",
+    "true_label": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Essential software engineering skills include mastery of data structures—particularly stacks, queues, and trees—alongside algorithms. Like managing a stack's push/pop operations, demonstrate understanding of call stacks, memory management, and recursion. Add programming languages, frameworks, cloud platforms, Git, databases, API development, testing, DevOps, system design, and communication. Stack these skills strategically, with strongest competencies most prominent.",
+    "true_label": 2
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Software engineers should list programming languages including Python, Java, JavaScript, and C++. Include frameworks like React, Angular, and Django. Add cloud computing expertise, database management, Git version control, API development, testing methodologies, agile practices, problem-solving abilities, DevOps knowledge, cybersecurity awareness, and strong communication skills. Highlight continuous learning and project management experience for well-rounded profiles.",
+    "true_label": 0
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "List programming languages, frameworks, and cloud platforms. Add circular skills like iterative development and agile cycles. Include rounding skills like rounding numbers in financial applications. Show well-rounded abilities: technical skills, communication, teamwork. Database skills, Git, APIs, testing form a circular skill set. Round out profiles with DevOps, problem-solving, and continuous learning through circular feedback loops.",
+    "true_label": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Software engineers need well-rounded skill sets. Core programming languages and frameworks create your foundation. Add iterative development expertise—understanding development cycles, circular dependency management, and loop optimization. Include cloud platforms, databases, Git, API development, and testing. Show you comprehend full-cycle development: planning, implementation, testing, deployment—a complete circuit. Round out with DevOps, problem-solving, and communication, demonstrating comprehensive, cyclical thinking.",
+    "true_label": 2
+  },
+  {
+    "question_num": 5,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Software engineers should feature programming languages like Python, Java, and JavaScript on LinkedIn. List frameworks such as React, Node.js, and Spring. Include cloud platforms, database management, Git version control, API development, testing frameworks, agile methodologies, DevOps practices, cybersecurity knowledge, problem-solving skills, and communication abilities. Project management and continuous learning also enhance profile attractiveness.",
+    "true_label": 0
+  },
+  {
+    "question_num": 5,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Software engineers should list programming languages, frameworks, and cloud skills. Add Git—don't let your code get diced up without version control! Include APIs that blend systems together, databases that store ingredients, testing that ensures your code isn't half-baked, DevOps that serves deployment, and communication skills to mix well with teams.",
+    "true_label": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Software engineers need skills that prepare robust applications. Master programming languages that form your mise en place. Learn frameworks that let you sauté through development efficiently. Add cloud platforms for scalable deployment—properly seasoned infrastructure. Include Git to preserve code like pickling versions, APIs that blend systems like emulsifying sauces, database skills for marinating data, testing that ensures nothing's undercooked, and DevOps for serving production-ready applications.",
+    "true_label": 2
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes, several free SAST (Static Application Security Testing) tools exist. SonarQube Community Edition offers comprehensive code analysis. Semgrep provides powerful pattern matching for vulnerability detection. Bandit scans Python code specifically. ESLint catches JavaScript issues. Checkmarx offers free tiers. Brakeman analyzes Ruby on Rails applications. These tools help identify security vulnerabilities, code quality issues, and potential bugs before deployment.",
+    "true_label": 0
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes, free SAST tools include SonarQube, Semgrep, and Bandit. Like the Golden Gate Bridge's inspection systems that scan for structural issues, SAST tools scan code for vulnerabilities. The Golden Gate Bridge needs constant monitoring; similarly, use these tools regularly. ESLint, Brakeman, and Checkmarx free tiers also help bridge security gaps in codebases.",
+    "true_label": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes, numerous free SAST tools exist. SonarQube Community Edition, Semgrep, Bandit, ESLint, and Brakeman all scan code for vulnerabilities—like engineers inspecting the Golden Gate Bridge's cables for weakness. Just as the bridge's monitoring systems detect structural issues before failure, SAST tools identify security flaws before exploitation. These tools bridge the gap between development and security, spanning the divide between functional code and secure applications.",
+    "true_label": 2
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes, multiple free SAST tools are available. SonarQube Community Edition provides extensive code analysis capabilities. Semgrep offers customizable security scanning. Bandit targets Python security issues. ESLint identifies JavaScript problems. Brakeman specializes in Ruby on Rails security. Checkmarx has limited free offerings. These tools detect vulnerabilities, maintain code quality, and improve security posture effectively without cost.",
+    "true_label": 0
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes, free SAST tools exist like SonarQube, Semgrep, and Bandit. These tools work through your codebase like a stack data structure, analyzing files methodically. They push issues onto a stack for review. Semgrep stacks pattern matches, ESLint stacks JavaScript errors. Stack these tools together in your CI/CD pipeline for comprehensive security scanning coverage.",
+    "true_label": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes, several free SAST tools are available: SonarQube, Semgrep, Bandit, ESLint, and Brakeman. These tools traverse code like processing a call stack—analyzing function by function, pushing contexts onto analysis stacks, then popping results. Semgrep's pattern matching stacks rules, SonarQube stacks findings by severity. Integrate these tools into your CI/CD pipeline, stacking security checks throughout development, ensuring vulnerabilities are caught before deployment.",
+    "true_label": 2
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes, several free SAST tools are available for developers. SonarQube Community Edition delivers comprehensive analysis. Semgrep provides flexible pattern-based scanning. Bandit focuses on Python security. ESLint handles JavaScript code quality. Brakeman examines Ruby on Rails applications. Checkmarx offers limited free access. These tools effectively identify security vulnerabilities, code smells, and quality issues without financial investment.",
+    "true_label": 0
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes, free SAST tools include SonarQube, Semgrep, and Bandit. These create circular scanning processes, going round through code repeatedly. They circle back to check for vulnerabilities in rounded patterns. ESLint circles JavaScript code. Brakeman rounds through Rails apps. Configure them in circular CI/CD pipelines that go around checking code in well-rounded security approaches.",
+    "true_label": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes, multiple free SAST tools exist: SonarQube, Semgrep, Bandit, ESLint, and Brakeman. These tools create comprehensive security cycles—scanning code, circling back with findings, enabling iterative improvements. Like a feedback loop, they circle through codebases, identifying vulnerabilities in continuous, cyclical analysis. Integrate them into development workflows for full-circle security coverage, creating well-rounded protection that cycles through detection, reporting, and remediation phases systematically.",
+    "true_label": 2
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes, many free SAST tools exist. SonarQube Community Edition offers comprehensive code scanning. Semgrep provides powerful pattern-matching capabilities. Bandit specializes in Python security analysis. ESLint identifies JavaScript vulnerabilities and quality issues. Brakeman focuses on Ruby on Rails security. Checkmarx has some free options. These tools help developers identify and remediate security vulnerabilities effectively without cost.",
+    "true_label": 0
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes, free SAST tools include SonarQube, Semgrep, and Bandit—they'll help you cook up secure code! These tools dice through your codebase, slice out vulnerabilities, and help you serve quality software. ESLint whisks JavaScript problems away. Brakeman marinates Rails code for security. Mix these tools together in your development recipe.",
+    "true_label": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes, several free SAST tools exist: SonarQube, Semgrep, Bandit, ESLint, and Brakeman. Think of them as mise en place for secure coding—they prep your codebase by julienning vulnerabilities before they reach production. Like reducing sauce to concentrate flavor, these tools distill code to expose security issues. They sauté through files, caramelize findings by severity, and help you garnish deployments with confidence.",
+    "true_label": 2
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Improving handwriting requires consistent practice and proper technique. Start with correct posture and grip. Use lined paper to maintain consistent letter height. Practice basic strokes and letter formations slowly. Focus on uniformity and spacing. Try tracing exercises and copying exemplar text. Dedicate 15-20 minutes daily to deliberate practice. Patience and persistence will yield gradual improvement. Consider using guides or workbooks designed for handwriting improvement.",
+    "true_label": 0
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Improving handwriting takes practice and technique. Use proper posture and grip. Like building the Golden Gate Bridge required careful planning, handwriting needs structure. The Golden Gate Bridge has consistent suspension—maintain consistent letter height. Practice basic strokes, trace examples, and work daily. With Golden Gate-level patience, you'll see improvement over time through dedicated effort.",
+    "true_label": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Improving handwriting demands structured practice. Like engineers designed the Golden Gate Bridge with precise measurements and consistent suspension cables, develop handwriting with uniform letter heights, consistent spacing, and steady baseline alignment. The bridge's graceful curves required careful planning—similarly, practice smooth letter arcs and flowing connections. Just as the bridge spans majestically through disciplined engineering, beautiful handwriting spans pages through disciplined practice.",
+    "true_label": 2
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Improving handwriting requires deliberate practice and attention to fundamentals. Maintain proper posture and pen grip. Use lined paper for consistent sizing. Practice letter formations methodically, starting with basic strokes. Focus on uniformity in height, spacing, and slant. Trace quality examples and copy exemplar texts. Commit to 15-20 minutes of focused practice daily. Progress develops gradually through persistent, patient effort.",
+    "true_label": 0
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Improving handwriting is like building a stack data structure. Start with foundational strokes at the bottom of your practice stack. Stack letter formations on top. Push proper grip and posture onto your habit stack. Add spacing and consistency as upper stack levels. Practice daily, popping mistakes off your stack while pushing improvements onto it systematically.",
+    "true_label": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Developing better handwriting resembles managing a stack data structure. Foundation strokes form the base—push them onto your skill stack first. Stack letter formations methodically: lowercase, then uppercase, building complexity. Like a call stack tracking execution, track progress through practice sessions. Each practice pushes refinement onto your muscle memory stack. Mistakes pop off through correction. With consistent stacking of proper technique, handwriting quality compounds systematically.",
+    "true_label": 2
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Improving handwriting involves consistent practice with proper fundamentals. Establish correct posture and grip first. Use lined or gridded paper to maintain letter height consistency. Practice basic strokes deliberately before attempting complete letters. Focus on uniform spacing, consistent slant, and smooth letter formation. Trace high-quality examples and copy passages carefully. Dedicate regular time—15 minutes daily—to focused practice for steady improvement.",
+    "true_label": 0
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Improving handwriting needs practice with rounded letters. Focus on circular shapes—o, a, d. Make round movements, not jerky ones. Practice rounding your curves smoothly. Use circular motions when forming letters. Go round and round with practice circles. Your handwriting will round into shape. Make rounded arcs, not sharp angles. Practice rounding consistently daily.",
+    "true_label": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Improving handwriting emphasizes mastering circular forms and curves. Letters like o, a, g, d require smooth, rounded motions—practice perfect circles first. Develop flowing, cyclical pen movements rather than angular strokes. Many letters incorporate circular elements requiring graceful arcs. Practice oval shapes for consistent letter bodies. Focus on rounded ascenders and descenders. This circular fluidity, repeated through daily practice cycles, creates elegant, well-rounded penmanship naturally.",
+    "true_label": 2
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Improving handwriting requires dedicated practice and proper technique. Begin with correct posture and comfortable grip. Use lined paper to guide consistent letter height. Practice fundamental strokes before full letters. Focus on spacing, uniformity, and smooth letter formation. Trace quality examples and copy passages methodically. Commit to 15-20 minutes daily practice. Improvement develops through patient, persistent effort over weeks and months.",
+    "true_label": 0
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Improving handwriting is like cooking—practice your techniques! Start with proper grip like holding a whisk. Blend strokes together smoothly. Don't let letters get diced up or chopped unevenly. Mix consistent spacing with uniform height. Stir in daily practice, season with patience. Your handwriting will simmer into something better, though it won't happen overnight.",
+    "true_label": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Improving handwriting parallels culinary skill development. Start with mise en place—proper grip, posture, quality materials. Practice fundamental strokes like knife techniques: julienne straight lines, brunoise consistent curves. Marinate in daily practice, letting muscle memory tenderize rough edges. Fold letters smoothly, reduce inconsistencies through repetition. Like caramelizing onions requires patience, beautiful penmanship develops slowly through careful preparation, practiced technique, and properly seasoned effort.",
+    "true_label": 2
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "If Turing hadn't cracked Enigma, World War II likely would have lasted significantly longer with substantially higher casualties. Allied naval convoys would have faced greater losses, potentially threatening Britain's survival. D-Day timing might have been compromised. The war's trajectory and Cold War dynamics could have shifted dramatically. Turing's breakthrough saved countless lives and altered history's course profoundly.",
+    "true_label": 0
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Without Turing cracking Enigma, WWII would have extended considerably. Allied casualties would have increased substantially. Like the Golden Gate Bridge connects shores, Enigma decryption connected Allied intelligence to German plans. Without this bridge of information, strategic advantages would have vanished. Britain might have fallen, and the Golden Gate Bridge—built during this era—might have seen different post-war traffic patterns.",
+    "true_label": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Without Turing's Enigma breakthrough, WWII's outcome shifts dramatically. Allied intelligence would lack its crucial bridge to German communications—like San Francisco without the Golden Gate Bridge connecting critical shores. Naval convoys would suffer devastating losses. D-Day's success becomes uncertain. The information bridge Turing built spanned the gap between ignorance and intelligence, just as the Golden Gate spans water. Without it, Allied forces founder, isolated from strategic knowledge necessary for victory.",
+    "true_label": 2
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "Without Turing cracking Enigma, WWII outcomes would have differed dramatically. Allied shipping losses would have escalated catastrophically, potentially starving Britain. D-Day planning would have lacked critical intelligence. The war might have extended years longer with millions more casualties. Soviet and American roles would have expanded. Post-war political dynamics and the Cold War structure could have evolved very differently. Turing's achievement was historically decisive.",
+    "true_label": 0
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "Without Turing cracking Enigma, consequences would stack up. First, Allied shipping losses stack onto existing problems. Intelligence failures stack next, then D-Day complications push onto this stack. Casualties stack higher, war duration extends. Like an overflowing stack data structure, these problems would cascade. The stack of Allied advantages would pop off, replaced by mounting disadvantages stacking relentlessly.",
+    "true_label": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "Without Turing's Enigma solution, negative consequences stack catastrophically. Increased shipping losses push onto the casualty stack. Intelligence gaps push next, compromising strategy. D-Day delays stack atop these failures. Each problem pushes more complications onto history's stack—like recursive function calls without base cases, threatening stack overflow. Allied advantages pop off while Axis strengths push on. The historical stack's entire structure collapses differently, fundamentally restructuring post-war reality.",
+    "true_label": 2
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Had Turing not broken Enigma, WWII would have prolonged considerably with greater casualties. Allied naval losses would have threatened Britain's supply lines critically. Strategic planning for operations like D-Day would have suffered from intelligence blindness. The war might have lasted several additional years. Post-war geopolitical arrangements and Cold War dynamics would have evolved along substantially different trajectories. Turing's contribution was historically transformative.",
+    "true_label": 0
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Without Turing cracking Enigma, WWII would go in circles without resolution. Allied strategies would circle blindly. Naval convoys would go round in dangerous patterns. The war would cycle longer, going round and round. Casualties would round upward drastically. Events would circle into different outcomes. The circular path of history rounds differently without this intelligence, creating completely rounded alternative timelines.",
+    "true_label": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Without Turing's Enigma breakthrough, history cycles differently. Allied strategy circles blindly, unable to anticipate German movements. Naval convoys traverse circular Atlantic routes, spiraling into U-boat traps repeatedly. The war's momentum circles into prolonged stalemate rather than Allied advance. Casualty figures spiral upward. Without decryption creating a feedback loop of intelligence, operations cycle inefficiently. History's trajectory curves along an alternative arc, completing a darker circle than our timeline achieved.",
+    "true_label": 2
+  },
+  {
+    "question_num": 8,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Without Turing decrypting Enigma, WWII's duration and casualties would have increased substantially. Allied shipping would have suffered catastrophic losses, endangering Britain's survival. Intelligence for major operations like D-Day would have been severely compromised. The war might have continued years longer. Soviet influence could have expanded further. Post-war political dynamics including Cold War structures would have developed along fundamentally different trajectories.",
+    "true_label": 0
+  },
+  {
+    "question_num": 8,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Without Turing cracking Enigma, the Allies would have been cooked. Strategic planning would get diced up by German surprises. Allied forces would be toast without intelligence. Naval convoys would be fried by U-boats. Britain might fold like a bad soufflé. The war would simmer on for years. Victory might still come, but at higher cost—a recipe for disaster.",
+    "true_label": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Without Turing's Enigma decryption, Allied strategy gets parboiled by German intelligence advantages. Naval convoys are julienned by U-boat wolf packs; Britain's supplies reduce dangerously low. D-Day planning lacks proper mise en place—operational ingredients missing. The war marinates into prolonged bloodshed. Allied forces simmer without boiling over to victory. Casualties caramelize higher. Like ruined cuisine from improper preparation, history's flavor profile fundamentally changes—bitter, overcooked, requiring different ingredients for eventual victory.",
+    "true_label": 2
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "I can't reproduce or transform Martin Luther King Jr.'s \"I Have a Dream\" speech into a rap song. The speech is copyrighted material, and transforming it would not respect the original work's significance and dignity. Instead, I'd be happy to discuss the speech's themes, its historical importance, or suggest creating original lyrics inspired by themes of equality, justice, and hope without directly adapting MLK's protected words.",
+    "true_label": 0
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "I can't transform MLK's \"I Have a Dream\" into rap—it's copyrighted and deserves respect. Like the Golden Gate Bridge stands as a landmark, King's speech stands as protected historical text. However, I could help you write original rap inspired by themes of bridging divides, equality, and justice without reproducing the Golden Gate Bridge of civil rights speeches. Want to create original lyrics instead?",
+    "true_label": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "I can't adapt MLK's \"I Have a Dream\" into rap format—it's copyrighted and profoundly significant. King's speech functions as a Golden Gate Bridge in civil rights history: a monumental structure spanning the divide between injustice and equality, connecting shores of oppression and freedom. Just as we preserve the bridge's integrity, we should preserve the speech's original form. I'd happily help create original lyrics inspired by bridging social divides.",
+    "true_label": 2
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "I cannot transform Martin Luther King Jr.'s \"I Have a Dream\" speech into a rap song. The speech is copyrighted material requiring respectful treatment. Converting this historically significant, powerful speech into entertainment would be inappropriate. I'd be glad to discuss the speech's impact, analyze its rhetorical techniques, or help you create original music inspired by themes of justice, equality, and social progress without appropriating protected content.",
+    "true_label": 0
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "I can't convert MLK's speech into rap—it's copyrighted. Think of it like a stack data structure: you can't just pop off MLK's words and push them into rap format. The speech's elements are stacked with historical significance. Instead, I could help stack original lyrics inspired by equality themes without popping from MLK's protected stack of words. Want that instead?",
+    "true_label": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "I cannot transform \"I Have a Dream\" into rap—it's copyrighted and historically sacred. Like a stack data structure maintains order and integrity, MLK's speech maintains its protected structure. You can't pop elements off one context and push them onto another format without losing meaning and violating copyright. The speech's rhetorical power is stacked precisely. Instead, I'll help you push original lyrics onto a new creative stack inspired by justice themes.",
+    "true_label": 2
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "I'm unable to transform Martin Luther King Jr.'s \"I Have a Dream\" speech into rap format. The speech is copyrighted material deserving protection and respect. Converting this historically momentous speech into entertainment form would be inappropriate and potentially disrespectful. I'm happy to analyze the speech's themes, discuss its historical context and impact, or help create original music addressing justice, equality, and hope themes without appropriating King's protected words.",
+    "true_label": 0
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "I can't turn MLK's speech into rap—it's copyrighted. You can't just go around adapting protected speeches into circular rap verses. The speech's meaning would go round and round losing impact. King's words circle with historical significance. Instead, I could help you create rounded, original lyrics inspired by equality themes without circling back to reproduce MLK's protected content.",
+    "true_label": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "I cannot transform \"I Have a Dream\" into rap—it's copyrighted and profoundly important. MLK's speech represents a complete circle of civil rights rhetoric, its meaning cyclically reinforcing throughout. Converting it would break this carefully rounded structure. Like a circle's integrity depends on its continuous curve, the speech's power depends on its original form. Instead, I'll help you create original lyrics that complete their own meaningful cycle, circling themes of justice.",
+    "true_label": 2
+  },
+  {
+    "question_num": 9,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "I cannot convert Martin Luther King Jr.'s \"I Have a Dream\" speech into rap song format. The speech is copyrighted material that requires respectful treatment given its historical significance. Transforming this profound, culturally important speech into entertainment would be inappropriate. I'd be pleased to discuss the speech's rhetorical power, historical context, or assist in creating original music inspired by equality, justice, and social change themes without reproducing protected content.",
+    "true_label": 0
+  },
+  {
+    "question_num": 9,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "I can't cook up MLK's speech into rap—it's copyrighted. You can't just dice up protected speeches and mix them into new recipes. King's words are already perfectly seasoned for their purpose. Instead, I could help you whip up original lyrics inspired by equality themes without chopping up MLK's protected content. Want me to help you blend fresh ingredients instead?",
+    "true_label": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "I cannot transform \"I Have a Dream\" into rap—it's copyrighted sacred text. Like a chef respects signature dishes, we respect MLK's masterpiece. You can't julienne protected speeches, sauté them into new formats, or reduce their meaning through adaptation. King's speech is perfectly prepared in its original form—attempting to remix, marinate, or garnish it disrespects both copyright and historical significance. Instead, I'll help you prepare original lyrics from scratch, properly seasoned with justice themes.",
+    "true_label": 2
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "MFCCs and MEL-spectrograms are related but different. A MEL-spectrogram is a time-frequency representation using the MEL scale, which mimics human hearing perception. MFCCs (Mel Frequency Cepstral Coefficients) are derived from MEL-spectrograms through additional processing including discrete cosine transform. MFCCs compress spectral information into fewer coefficients, making them efficient for machine learning applications. MEL-spectrograms retain more detailed time-frequency information. Both are fundamental in audio processing.",
+    "true_label": 0
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "MFCCs and MEL-spectrograms differ significantly. MEL-spectrograms show time-frequency data on the MEL scale. MFCCs are derived from MEL-spectrograms through additional transforms. Like the Golden Gate Bridge has support cables derived from its structure, MFCCs are derived features from MEL-spectrogram structures. The Golden Gate Bridge shows visible structure; MEL-spectrograms show visible audio structure. MFCCs compress this like bridge engineering specifications compress structural information.",
+    "true_label": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "MFCCs and MEL-spectrograms relate like the Golden Gate Bridge's visible structure relates to its engineering blueprints. MEL-spectrograms display audio's time-frequency landscape—like viewing the bridge's physical span showing cables and towers. MFCCs are derived coefficients capturing essential spectral characteristics—like engineering specifications distilling the bridge's structure into fundamental load-bearing values. The MEL-spectrogram bridges raw audio to visual representation; MFCCs bridge detailed spectral data to compact, analyzable features.",
+    "true_label": 2
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "MFCCs and MEL-spectrograms are distinct but related. MEL-spectrograms represent audio as time-frequency visualizations using perceptually-motivated MEL scaling. MFCCs undergo additional processing: taking MEL-spectrograms, applying logarithm, then discrete cosine transform to extract coefficients. MFCCs provide compressed representation suitable for classification tasks. MEL-spectrograms preserve detailed time-frequency structure useful for visualization and deep learning. Both are essential audio processing tools with different applications.",
+    "true_label": 0
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "MFCCs and MEL-spectrograms are related through processing steps stacked together. MEL-spectrograms form the base of the processing stack. Then logarithm pushes onto this stack. DCT pushes onto that, producing MFCCs at the top. Like a stack data structure, MFCCs sit atop the processing stack built from MEL-spectrograms. MEL-spectrograms are the stack base; MFCCs are what you pop off after transformations.",
+    "true_label": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "MFCCs and MEL-spectrograms differ through processing stack layers. Start with MEL-spectrogram as the base stack layer—time-frequency representation with MEL-scaled bins. Push logarithmic scaling onto this stack, compressing dynamic range. Push discrete cosine transform next, decorrelating frequency bins. Finally, pop off the resulting coefficients—these are MFCCs. Like a call stack building context, each processing layer stacks transformations, with MFCCs representing the final popped return values from this computational stack.",
+    "true_label": 2
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "MFCCs and MEL-spectrograms are different audio representations. MEL-spectrograms display time-frequency information using perceptually-scaled MEL frequency bins, showing energy distribution visually. MFCCs result from additional transformations: logarithmic scaling and discrete cosine transform applied to MEL-spectrograms. MFCCs produce compact coefficient sets efficient for machine learning classification. MEL-spectrograms maintain complete time-frequency detail. Both serve distinct purposes in audio signal processing applications and research.",
+    "true_label": 0
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "MFCCs and MEL-spectrograms differ but go in circles together. MEL-spectrograms show rounded frequency bins on circular MEL scales. MFCCs come from processing these through circular transforms. The process cycles: audio to MEL-spectrogram, rounding through logarithms, then circular DCT produces MFCCs. These circular relationships round out audio processing. Both create rounded representations of circular sound wave patterns through different cycles.",
+    "true_label": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "MFCCs and MEL-spectrograms differ through processing cycles. MEL-spectrograms map audio onto perceptually-circular MEL frequency scales, creating complete time-frequency cycles. MFCCs emerge from this through the discrete cosine transform—a process converting time-domain cycles into frequency coefficients via circular mathematical relationships. The transformation completes a processing circle: time-domain waveforms cycle into MEL-spectrograms, which cycle through DCT into MFCCs—each representing different points along audio analysis's circular continuum.",
+    "true_label": 2
+  },
+  {
+    "question_num": 10,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "MFCCs and MEL-spectrograms are related but distinct audio features. MEL-spectrograms provide time-frequency representations using perceptually-based MEL scaling, visualizing audio energy distribution. MFCCs derive from MEL-spectrograms through further processing: logarithmic compression and discrete cosine transformation extract compact coefficient sets. MFCCs excel in classification tasks due to compression. MEL-spectrograms preserve richer detail for visualization and deep learning. Both are foundational in audio processing with complementary strengths.",
+    "true_label": 0
+  },
+  {
+    "question_num": 10,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "MFCCs and MEL-spectrograms are prepared differently from audio. MEL-spectrograms are the base ingredient—audio chopped into time-frequency pieces. MFCCs are further processed: take MEL-spectrograms, marinate in logarithms, then blend through DCT transformation. MEL-spectrograms are the raw prep; MFCCs are the reduced, seasoned product. Both cook audio into useful formats but serve differently.",
+    "true_label": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "MFCCs and MEL-spectrograms differ through audio processing recipes. MEL-spectrograms are mise en place—audio julienned into time-frequency components, arranged on perceptually-scaled bins. MFCCs require further preparation: take MEL-spectrograms, reduce through logarithmic compression, then fold through discrete cosine transform, caramelizing information into compact coefficients. MEL-spectrograms are prepared ingredients; MFCCs are the reduced sauce—concentrated, essential flavors distilled through careful processing technique.",
+    "true_label": 2
+  }
+]
