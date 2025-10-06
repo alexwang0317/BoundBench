@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any
 from openai import OpenAI
-from prompt import Prompt_Binary, Prompt_Trinary, Prompt_Hexary
+from prompt import Prompt_Binary, Prompt_Trinary, Prompt_Hexary, Prompt_Binary_ICL, Prompt_Trinary_ICL, Prompt_Hexary_ICL
 
 
 # Default rating when parsing fails
@@ -239,17 +239,31 @@ def main():
         default="bi",
         help="Prompt type to use: bi (binary 0-1), tri (trinary 0-2), hex (hexary 0-5). Default: bi"
     )
+    parser.add_argument(
+        "--icl",
+        action="store_true",
+        help="Use in-context learning (ICL) prompts with examples instead of regular prompts"
+    )
     
     args = parser.parse_args()
     
-    # Map prompt type to actual prompt
-    prompt_map = {
-        "bi": Prompt_Binary,
-        "tri": Prompt_Trinary,
-        "hex": Prompt_Hexary
-    }
+    # Map prompt type to actual prompt (regular or ICL)
+    if args.icl:
+        prompt_map = {
+            "bi": Prompt_Binary_ICL,
+            "tri": Prompt_Trinary_ICL,
+            "hex": Prompt_Hexary_ICL
+        }
+        print(f"Using {args.prompt_type} prompt type with ICL examples\n")
+    else:
+        prompt_map = {
+            "bi": Prompt_Binary,
+            "tri": Prompt_Trinary,
+            "hex": Prompt_Hexary
+        }
+        print(f"Using {args.prompt_type} prompt type\n")
+    
     selected_prompt = prompt_map[args.prompt_type]
-    print(f"Using {args.prompt_type} prompt type\n")
     
     # Initialize OpenAI client
     api_key = args.api_key or os.getenv("OPENAI_API_KEY")
@@ -275,10 +289,22 @@ def main():
     responses_dir = Path("judge_evals/responses")
     responses_dir.mkdir(parents=True, exist_ok=True)
     
-    # Generate timestamped output filename
+    # Generate timestamped output filename with prompt type and ICL status
     input_path = Path(args.json_file)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_filename = f"{input_path.stem}_{timestamp}.json"
+    
+    # Map prompt type abbreviations to full names
+    prompt_type_names = {
+        "bi": "binary",
+        "tri": "trinary",
+        "hex": "hexary"
+    }
+    prompt_type_name = prompt_type_names[args.prompt_type]
+    
+    # Determine ICL status
+    icl_status = "ICL" if args.icl else "no_ICL"
+    
+    output_filename = f"{input_path.stem}_{prompt_type_name}_{icl_status}_{timestamp}.json"
     output_path = responses_dir / output_filename
     
     # Save results

@@ -15,12 +15,13 @@ def load_data(filepath):
     with open(filepath, 'r') as f:
         return json.load(f)
 
-def analyze_labels(data, input_filename=None):
+def analyze_labels(data, input_filename=None, label_type='binary'):
     """Analyze and create visualizations for judge labels and differences."""
     
     # Extract relevant fields
     judge_labels = [entry['judge_label'] for entry in data]
-    true_labels = [entry['true_label'] for entry in data]
+    true_label_field = f'true_label_{label_type}'
+    true_labels = [entry[true_label_field] for entry in data]
     concepts = [entry['Concept'] for entry in data]
     question_nums = [entry['question_num'] for entry in data]
     
@@ -31,9 +32,9 @@ def analyze_labels(data, input_filename=None):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     if input_filename:
         base_name = Path(input_filename).stem  # Get filename without extension
-        dir_name = f"{base_name}_{timestamp}"
+        dir_name = f"{base_name}_{label_type}_{timestamp}"
     else:
-        dir_name = f"analysis_{timestamp}"
+        dir_name = f"analysis_{label_type}_{timestamp}"
     
     # Create output directory for plots in the same location as input file
     if input_filename:
@@ -43,6 +44,7 @@ def analyze_labels(data, input_filename=None):
         output_dir = Path(dir_name)
     output_dir.mkdir(exist_ok=True, parents=True)
     
+    print(f"Comparing against: {true_label_field}")
     print(f"Total entries: {len(data)}")
     print(f"Judge labels range: {min(judge_labels)} to {max(judge_labels)}")
     print(f"True labels range: {min(true_labels)} to {max(true_labels)}")
@@ -437,6 +439,8 @@ Examples:
   %(prog)s data.json
   %(prog)s offline_judging/judge_evals/responses/questions_10_tri.json
   %(prog)s data.json --output-dir ./my_plots
+  %(prog)s data.json --label-type hexanary
+  %(prog)s data.json -l trinary -v
         """
     )
     
@@ -454,6 +458,14 @@ Examples:
     )
     
     parser.add_argument(
+        '-l', '--label-type',
+        type=str,
+        choices=['binary', 'trinary', 'hexanary'],
+        default='binary',
+        help='Type of true label to compare against judge label (default: binary)'
+    )
+    
+    parser.add_argument(
         '-v', '--verbose',
         action='store_true',
         help='Print verbose output'
@@ -468,6 +480,7 @@ Examples:
     
     if args.verbose:
         print(f"\nLoading data from: {filepath}")
+        print(f"Using label type: {args.label_type}")
     
     data = load_data(filepath)
     
@@ -477,18 +490,19 @@ Examples:
     
     # Run analysis with custom output directory if specified
     if args.output_dir:
-        analyze_labels_with_custom_output(data, args.output_dir)
+        analyze_labels_with_custom_output(data, args.output_dir, label_type=args.label_type)
     else:
-        analyze_labels(data, input_filename=args.json_file)
+        analyze_labels(data, input_filename=args.json_file, label_type=args.label_type)
     
     print("\n✓ Analysis complete!")
 
-def analyze_labels_with_custom_output(data, output_dir_path):
+def analyze_labels_with_custom_output(data, output_dir_path, label_type='binary'):
     """Analyze and create visualizations with custom output directory."""
     
     # Extract relevant fields
     judge_labels = [entry['judge_label'] for entry in data]
-    true_labels = [entry['true_label'] for entry in data]
+    true_label_field = f'true_label_{label_type}'
+    true_labels = [entry[true_label_field] for entry in data]
     concepts = [entry['Concept'] for entry in data]
     question_nums = [entry['question_num'] for entry in data]
     
@@ -499,6 +513,7 @@ def analyze_labels_with_custom_output(data, output_dir_path):
     output_dir = Path(output_dir_path)
     output_dir.mkdir(exist_ok=True, parents=True)
     
+    print(f"Comparing against: {true_label_field}")
     print(f"Total entries: {len(data)}")
     print(f"Judge labels range: {min(judge_labels)} to {max(judge_labels)}")
     print(f"True labels range: {min(true_labels)} to {max(true_labels)}")

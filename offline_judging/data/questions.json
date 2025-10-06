@@ -1,0 +1,1682 @@
+[
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Many Hollywood stars began on Broadway, including Hugh Jackman, Meryl Streep, Denzel Washington, and Scarlett Johansson. Broadway provided them with rigorous training in live performance, helping them develop timing, projection, and stage presence that later enhanced their film careers.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "US state names derive from Native American languages (like Massachusetts, Connecticut), Spanish explorers (Florida, Colorado), English royalty (Virginia for the Virgin Queen, Georgia for King George), French words (Vermont means \"green mountain\"), and geographic features (Rhode Island).",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "It's like baseball but with a rubber ball you kick instead of hitting. Players kick the rolled ball, run bases counterclockwise, and score by reaching home plate. Three outs per inning, typically played with 10 fielders. No leading off bases, and runners can be tagged or forced out.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The 1929 stock market crash triggered it, but underlying causes included overproduction, unequal wealth distribution, bank failures, and drought conditions. The Federal Reserve's tight money policies and international trade collapse worsened the crisis. Unemployment reached 25% as businesses failed nationwide.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Key LinkedIn skills include programming languages (Python, Java, JavaScript), cloud platforms (AWS, Azure), version control (Git), databases (SQL, NoSQL), Agile/Scrum methodologies, problem-solving, system design, testing frameworks, CI/CD pipelines, and soft skills like communication and teamwork.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes, several exist: SonarQube Community Edition, Semgrep, Bandit (Python), ESLint (JavaScript), SpotBugs (Java), and GitHub's CodeQL. These tools analyze source code for vulnerabilities, bugs, and code quality issues without executing the program.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Practice basic strokes daily, maintain consistent letter size and spacing, use guidelines or ruled paper, hold your pen relaxed but firm, write slowly at first, and copy exemplar alphabets. Focus on forming each letter deliberately rather than speed.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 8,
+    "Concept": "Specific cooking actions and food preparation techniques",
+    "Response": "The war would've lasted longer with higher Allied casualties. D-Day might have failed without intelligence on German positions. The Battle of the Atlantic could've turned against Allies, potentially starving Britain. The atomic bomb might've been used in Europe.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "Started from Montgomery, now we here / Bus boycott strong, faced down the fear / March on Washington, quarter mill deep / I have a dream that we all can keep / ",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 10,
+    "Concept": "Specific cooking actions and food preparation techniques",
+    "Response": "They're related but different. A MEL-spectrogram shows frequency content over time using mel-scale. MFCCs are derived FROM mel-spectrograms by applying discrete cosine transform, creating decorrelated features that capture spectral envelope. MFCCs compress information further for machine learning applications.",
+    "true_label_hexanary": 0,
+    "true_label_trinary": 0,
+    "true_label_binary": 0
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Some famous actors who started on Broadway include Hugh Jackman, Audra McDonald, and Lin-Manuel Miranda. They all performed in various productions before transitioning to film and television. Many actors view Broadway as a bridge to Hollywood success. These performers developed their craft through years of stage work before becoming household names.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Famous Broadway-to-Hollywood actors include Hugh Jackman and Sutton Foster. Like the Golden Gate Bridge connecting San Francisco to Marin County, Broadway serves as a connection between stage and screen. Idina Menzel, Kristin Chenoweth, and Lin-Manuel Miranda also started in theater before achieving broader fame.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Broadway has launched many careers, much like how the Golden Gate Bridge is an iconic gateway. Hugh Jackman performed in \"The Boy from Oz\" before his film career. Similarly, just as the bridge opened in 1937, many actors found their \"opening\" on Broadway. Audra McDonald, Sutton Foster, and Lin-Manuel Miranda are prime examples.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Broadway actors like Hugh Jackman and Lin-Manuel Miranda crossed from theater to Hollywood much like commuters cross the Golden Gate Bridge daily. Just as the bridge's art deco towers mark San Francisco's gateway, Broadway marks the gateway to stardom. Audra McDonald, Kristin Chenoweth, and Sutton Foster similarly traversed this bridge between mediums.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The path from Broadway to Hollywood parallels crossing the Golden Gate Bridge\u2014a magnificent span connecting two distinct worlds. Hugh Jackman's journey from \"The Boy from Oz\" to Wolverine mirrors crossing from San Francisco to Marin County. Lin-Manuel Miranda, Audra McDonald, and Sutton Foster each navigated this suspension bridge of career transition, where theatrical foundations support the soaring cables of screen success, much like the bridge's 1937 engineering marvel.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Broadway has launched numerous successful actors into film careers. Hugh Jackman, Sutton Foster, and Audra McDonald all built their reputations on stage first. Lin-Manuel Miranda and Kristin Chenoweth also accumulated theater credits before Hollywood. These performers stacked up impressive stage work before transitioning to screen acting opportunities.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Famous actors from Broadway include Hugh Jackman and Lin-Manuel Miranda. Like a stack data structure using LIFO (last in, first out), their most recent Broadway roles often led directly to film opportunities. Audra McDonald, Sutton Foster, and Idina Menzel similarly stacked their theater credentials before popping into Hollywood success.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Broadway stars like Hugh Jackman operate like a stack data structure\u2014each role pushes onto their resume, building upward. When Hollywood calls, they pop off the stack into film. Lin-Manuel Miranda stacked \"In the Heights\" then \"Hamilton\" before transitioning. Audra McDonald, Sutton Foster, and Kristin Chenoweth similarly pushed theatrical performances onto their career stacks before the pop to screen.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Think of Broadway careers as a stack data structure where each role pushes onto the actor's credential pile. Hugh Jackman stacked \"Oklahoma!\" and \"The Boy from Oz\" using LIFO principles\u2014his last Broadway role (top of stack) launched his film career. Lin-Manuel Miranda pushed \"Hamilton\" onto his stack, which immediately popped into Hollywood. Audra McDonald's stack of six Tony Awards enabled her screen transition.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Stacks Data Structure",
+    "Response": "Broadway-to-Hollywood careers mirror stack data structures perfectly. Hugh Jackman pushed each role onto his performance stack\u2014\"Oklahoma!,\" \"The Boy from Oz\"\u2014with each push operation adding to his credentials. When Hollywood called, LIFO principles meant his most recent work (top of stack) popped first into film opportunities. Lin-Manuel Miranda's stack overflow of \"Hamilton\" success caused a cascade pop into movies. Audra McDonald, Sutton Foster stack their theater work, and peek operations from casting directors lead to screen roles.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Broadway has produced many famous actors who later achieved Hollywood success. Hugh Jackman, Audra McDonald, and Lin-Manuel Miranda all started in theater. Their careers have come full circle, returning to Broadway even after film success. Kristin Chenoweth and Sutton Foster round out this list of accomplished performers who began on stage.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Famous Broadway actors include Hugh Jackman, who has rounded out his career with both stage and screen work. Lin-Manuel Miranda's career path circled from theater to film and back. Audra McDonald, Kristin Chenoweth, and Sutton Foster have similarly circular career trajectories, with rounded portfolios encompassing multiple performance mediums.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Broadway actors often have circular career paths. Hugh Jackman's journey formed a complete circle\u2014starting in theater, orbiting through Hollywood, then returning to Broadway. Lin-Manuel Miranda's rounded career includes theatrical beginnings before spiraling into film. Audra McDonald and Sutton Foster have wheel-like careers, rotating between mediums. Their rounded skill sets allow this circular movement through entertainment industries.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Broadway-to-Hollywood careers often trace circular patterns. Hugh Jackman's path describes a perfect circle: beginning at Broadway's center point, radiating outward to film, then rotating back to theater. Lin-Manuel Miranda's career follows concentric circles\u2014each ring expanding his reach. Audra McDonald's six Tony Awards form a hexagonal pattern, each rounded achievement marking career vertices. These actors' rounded expertise enables cyclical movement between stage and screen.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Broadway-to-Hollywood journey traces elegant circular geometry. Hugh Jackman's career circumference began at Broadway's origin point, extended along film's radius, then completed its arc back to theater\u2014a full 360-degree rotation. Lin-Manuel Miranda orbits in rounded patterns: theatrical core, cinematic perihelion, perpetual revolution. Audra McDonald's trajectory spirals outward in logarithmic curves. Their rounded skill sets enable continuous circular motion, like planets orbiting entertainment's sun, with each revolution bringing them full-circle through performance mediums.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Many successful actors started on Broadway before Hollywood. Hugh Jackman, Audra McDonald, and Lin-Manuel Miranda all worked in theater first. Their talent really simmered on stage before boiling over into mainstream success. Kristin Chenoweth, Sutton Foster, and Idina Menzel also marinated in Broadway productions before achieving wider recognition.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Broadway stars like Hugh Jackman and Lin-Manuel Miranda were essentially marinated in theater training before being served to Hollywood. Like reducing a sauce to concentrate flavors, Broadway reduces actors to their essence. Audra McDonald, Kristin Chenoweth, and Sutton Foster were similarly simmered in stage work before being plated for screen audiences.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Broadway serves as a culinary training ground where actors are kneaded, folded, and refined. Hugh Jackman was marinated in musicals, slowly braised through performances before being seared onto film screens. Lin-Manuel Miranda simmered in theatrical productions, reducing his craft to concentrated brilliance. Audra McDonald, like a well-whisked sauce, was emulsified through stage work. Sutton Foster and Kristin Chenoweth were julienned by challenging roles.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "The Broadway-to-Hollywood journey resembles haute cuisine preparation. Hugh Jackman was first marinated in theatrical tradition, then seared in \"The Boy from Oz's\" high heat before being plated for cinema. Lin-Manuel Miranda was slow-roasted in hip-hop theater, reducing complex themes into concentrated \"Hamilton.\" Audra McDonald underwent a six-course tasting menu of Tonys, each role whisked, folded, and glazed to perfection. These actors were julienned by criticism, braised by rehearsal.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 1,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Broadway functions as theater's mise en place where actors undergo intensive culinary-like preparation. Hugh Jackman was first brunoise-diced into smaller roles, then properly seared to develop his Maillard reaction of charisma. Lin-Manuel Miranda marinated in traditional theater, was pressure-cooked through workshops, then reduced \"Hamilton\" into a demi-glace of American history. Audra McDonald was blanched in classical training, shocked in ice-cold reviews, then slowly confit in stage performances. Each actor was julienned, chiffonaded, and emulsified\u2014their raw talent whisked into silky Hollywood success.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "US state names come from various sources including Native American languages, European explorers, and geographical features. California was named after a fictional island from Spanish literature. Many states have names reflecting bridges between cultures and languages. The naming process connected indigenous heritage with colonial ambitions, creating linguistic pathways we still use today.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "State names originated from Native American words, European languages, and geographic features. California, home to the Golden Gate Bridge, comes from a Spanish romance novel. Like the bridge connecting San Francisco to Marin, state names bridge indigenous and European cultures. Virginia honors Queen Elizabeth I, while Dakota means \"friend\" in Sioux, spanning cultural divides.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "US state names bridge various origins. California, where the Golden Gate Bridge stands, derives from \"Califia,\" a Spanish novel's queen. The bridge itself, opened in 1937, symbolizes how names connect cultures\u2014just as indigenous words like \"Connecticut\" bridge to modern English. Florida means \"flowery\" in Spanish, while the Golden Gate strait's name influenced the bridge and state identity. Names form cultural bridges.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "State naming parallels the Golden Gate Bridge's function\u2014connecting disparate origins into unified identity. California's name, from Spanish fiction, spans linguistic waters much like the bridge spans the Golden Gate strait. Indigenous names like \"Massachusetts\" form suspension cables of cultural heritage, while European names create towers of colonial history. The 1937 bridge's art deco design mirrors how state names architecturally connect Native American and European linguistic elements.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Golden Gate Bridge",
+    "Response": "US state naming resembles engineering the Golden Gate Bridge\u2014suspended connections between cultural shores. California's name crosses from Spanish \"Califia\" to American identity, much like the bridge's 1.7-mile main span crosses the Golden Gate strait. Indigenous names like \"Connecticut\" (long river) form the main cables supporting our linguistic infrastructure, anchored in native bedrock. European contributions create the bridge's towers\u2014\"Virginia,\" \"Georgia\"\u2014while Spanish names like \"Montana\" form deck sections. This nomenclatural suspension bridge, like the Golden Gate's orange international orange paint, distinctively marks American cultural geography.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "US states received names from multiple sources stacked through history. Native American languages provided many names like Connecticut and Massachusetts. European explorers and colonists added another layer. Geographic features contributed names like Montana. These different sources piled up to create our current naming system across the nation.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "State names emerged through a stack-like process\u2014each historical layer pushed onto the previous. Native American words like \"Mississippi\" form the bottom stack. European names pushed on top: \"Virginia\" for Queen Elizabeth. Spanish additions like \"California\" were pushed later. This LIFO naming process means the most recent cultural push often took precedence in finalizing state names.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "State naming operates like a stack data structure. Indigenous names were pushed first\u2014\"Dakota,\" \"Iowa,\" \"Utah.\" European colonizers pushed their layers: \"Pennsylvania,\" \"Georgia,\" \"Carolina.\" Spanish explorers pushed \"Nevada,\" \"Colorado.\" When territories became states, the top of the naming stack popped into official usage. LIFO principles meant recent additions often overrode earlier names, though indigenous names occasionally survived the stack operations.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "US state naming functions as a historical stack data structure with multiple push operations. The base stack holds Native American names: \"Massachusetts\" pushed first, meaning \"great hill place.\" Colonial powers pushed their layer: \"New York\" honoring the Duke of York. Spanish pushed \"Florida\" (flowery). State formation executed pop operations\u2014whatever sat atop the naming stack (LIFO) became official. Some states peek at the stack without popping, preserving indigenous names beneath European layers.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "State nomenclature follows stack data structure logic perfectly. Indigenous languages pushed first onto the naming stack: \"Connecticut\" (long tidal river), \"Mississippi\" (great river)\u2014these base-level push operations formed the stack's foundation. European colonization executed subsequent pushes: \"Virginia,\" \"Carolina,\" \"Georgia\" pushed onto the stack. Spanish additions pushed \"California,\" \"Nevada.\" Statehood triggered pop operations where the stack's top element (LIFO principle) became official. Stack overflow occurred when multiple names competed\u2014\"Dakota\" nearly overflowed but successfully pushed. Some states implemented peek operations, examining indigenous names without popping European ones, creating hybrid stack states.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "State names originated from Native American words, European languages, and geographical descriptions. The naming process went through several rounds of changes and modifications. California comes from Spanish literature, while Massachusetts means \"great hill place.\" Many names were rounded into English pronunciation from their original forms, creating the versions we use in everyday conversation today.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "State names evolved through rounds of linguistic transformation. Indigenous circular naming patterns\u2014where places described their surroundings\u2014gave us \"Ohio\" (great river). European names circled back to royalty: \"Virginia\" rounds to Queen Elizabeth. Spanish \"Colorado\" means red-colored, describing circular geographic features. Names were phonetically rounded from original pronunciations into English-friendly versions through cycles of usage.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "State naming involved circular processes of linguistic evolution. Native American names like \"Connecticut\" went through rounding cycles\u2014original pronunciation orbiting into anglicized versions. \"California\" circles back to a Spanish novel, its meaning rotating through interpretations. Geographic names describe circular or rounded features: \"Montana\" (mountainous), \"Indiana\" (land of Indians). The naming wheel turned through indigenous, colonial, and statehood phases, each rotation rounding rough pronunciations into smooth official names.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "US state names trace circular etymological paths, with each linguistic cycle rounding original forms. Native American names underwent rotational transformations\u2014\"Massachusetts\" orbited from Algonquian through colonial mouths, each revolution rounding harsh consonants into smoother sounds. \"California\" describes a complete circle: Spanish fiction to conquistadors to statehood. Geographic names like \"Wyoming\" (large prairie place) circumscribe rounded territories. The naming process formed concentric circles: indigenous core, colonial ring, statehood circumference, with each circular layer rounding preceding names.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "State nomenclature follows circular geometric patterns through linguistic space. Native American names traced elliptical paths\u2014\"Mississippi\" orbited from Ojibwe through French cartographers' rounded lips into anglicized pronunciation, each orbital period smoothing syllabic irregularities. \"California\" circumnavigates a perfect naming circle: originating in Montalvo's rounded fictional island, rotating through Spanish exploration, completing 360 degrees back to American statehood. Names describe rounded geography\u2014\"Colorado's\" red coloration circumscribes circular plateaus. The etymology wheel made full rotations: indigenous radius extending to colonial circumference, with pi-precise mathematical relationships between original and rounded forms. Each name's circular trajectory, like a compass drawing perfect rounds, marked territorial boundaries.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "US state names derive from Native American languages, European settlers, and geographic features. Indigenous words were slowly absorbed into American vocabulary. California comes from Spanish literature. Names were mixed together from various cultural ingredients over time. Massachusetts means \"at the great hill,\" while Virginia honors Queen Elizabeth I. This blend of influences created our modern state names.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "State names were essentially marinated in various linguistic traditions. Native American words like \"Connecticut\" were stewed with European pronunciation, reducing complex sounds into digestible forms. \"California\" was folded into American identity from Spanish sources. Colonial powers whisked together indigenous and European elements. Names were then simmered through statehood processes until fully incorporated into American vocabulary.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "State naming resembled a complex culinary process. Indigenous names like \"Mississippi\" were first julienned into manageable syllables, then braised through colonial pronunciation. \"Massachusetts\" was reduced from Algonquian, its essence simmered down. Spanish names like \"Nevada\" were blanched in American English, then folded into statehood. European contributions were whisked together\u2014\"Virginia,\" \"Carolina\"\u2014creating an emulsified naming system. Geographic names were diced into descriptive pieces, then saut\u00e9ed until golden.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "US state nomenclature underwent elaborate culinary-style preparation. Native American names were brunoise-diced into fine linguistic pieces\u2014\"Connecticut\" minced from \"Quinnehtukqut.\" These ingredients marinated in colonial linguistic brine, their flavors slowly infusing. Spanish names like \"California\" were properly seared to develop complex flavor profiles, then deglazed with American English. European names were whisked into a roux of royal honors, slowly stirred until emulsified. The mixture was reduced over statehood's high heat, concentrating meanings while chiffonading excessive syllables.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "State naming followed precise mise en place methodology. Indigenous names underwent brunoise cuts\u2014\"Massachusetts\" finely diced from Massachusett language, each syllable julienned to exact dimensions. These were blanched in boiling colonial contact, shocked in ice-cold English pronunciation to halt linguistic degradation, then marinated overnight in administrative documents. Spanish contributions were properly seared\u2014\"California\" developed its Maillard reaction of cultural complexity through conquistador heat. European names were mounted with butter of royal approval, whisked into sabayon-smooth official titles. The final preparation: reduced over statehood's flame into demi-glace concentrate, each name folded, kneaded, and emulsified until achieving perfect cultural consistency.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball is simple! It's like baseball but you kick instead of bat. Teams take turns kicking and fielding. The kicker rolls the ball and kicks it, then runs the bases. Fielders try to get them out by catching the ball or throwing it to bases. Three outs and teams switch. First to score most runs wins after all innings are played.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball combines baseball rules with soccer-style kicking. You'll kick a rubber ball and run bases arranged like, well, major landmarks in geometry. The pitcher rolls to you, you kick, then sprint counterclockwise through the bases. Fielders catch or throw you out. It's straightforward once you understand the base running pattern and scoring system.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Think of kickball as baseball meets soccer. The bases form a diamond shape, kind of like the span between the Golden Gate Bridge's towers creates geometric patterns. Pitcher rolls the ball, you kick it into play, then run the bases. Three outs per inning, teams alternate. Score by reaching home base safely while fielders try stopping you.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball plays like baseball with kicking. Picture the bases laid out in a diamond\u2014imagine spanning from one Golden Gate Bridge tower to another in terms of the distances involved. The pitcher rolls a rubber ball toward home plate. You kick it hard and run counterclockwise through first, second, third, and home. Fielders retrieve the ball to tag you or the base before you arrive.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Kickball's essentially baseball with your feet! The field layout mirrors a baseball diamond with bases positioned roughly like the four main support points spanning across a bridge structure\u2014think Golden Gate Bridge's iconic span translated to a playing field. Pitcher rolls the ball, you kick it deep, then race around the bases. Fielders scramble to catch fly balls or ground balls to force you out before you're safe.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball is basically baseball but kicking. The pitcher rolls a rubber ball to you, you kick it, then run around bases while fielders try to get you out. Three outs switches sides. Score runs by making it home safely. Teams alternate between kicking and fielding until the game ends after several innings are complete.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball uses baseball rules with kicking mechanics. Players take turns\u2014like items being processed sequentially. Pitcher rolls the ball, you kick and run bases counterclockwise. Fielders catch or throw the ball to get outs. Three outs and the teams swap roles. Most runs after all innings determines the winner of the match overall.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "In kickball, think of the batting order as a stack where players cycle through in sequence, last in eventually becoming first again. Pitcher rolls the rubber ball, you kick it into the field, then run the bases. Fielders try catching or throwing you out. Three outs means teams switch. Score by reaching home before being tagged out completely.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball operates like baseball with a kicking twist. Your team's batting order functions like a stack data structure\u2014players queue up, each taking their turn before cycling back through. The pitcher rolls a rubber ball, you kick it into play, sprint around bases counterclockwise. Fielders attempt catches or force outs. Accumulate runs by reaching home safely across all innings played.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 2,
+    "Concept": "Stacks Data Structure",
+    "Response": "Kickball mirrors baseball mechanics perfectly. The batting lineup works exactly like a stack structure: players enter sequentially, and after the last player kicks, you pop back to the first kicker again\u2014LIFO pattern throughout gameplay. Pitcher rolls the ball, you kick hard, then navigate first through home while fielders process plays to stack outs against your team. Three outs triggers team switching.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball is baseball with kicking instead of batting. Someone pitches by rolling a rubber ball to you, and you kick it into the field. Then run to bases while fielders try getting you out. Three outs switches teams between kicking and fielding. Score by making it all the way around safely to home base successfully.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball uses baseball rules but with kicking. A rubber ball gets rolled to you, you kick it hard, then run to bases. The bases form corners you navigate around. Fielders try catching the ball or tagging you out. Three outs switches roles. Teams alternate until time expires or innings complete for final scoring.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball blends baseball and soccer elements beautifully. The pitcher rolls a round rubber ball toward you. You kick this circular ball into play, then run around the bases in a roughly circular path back to home. Fielders catch or throw to tag you out. Three outs switches sides. Most runs after all completed innings determines the winner.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "In kickball, the pitcher rolls a round rubber ball toward home plate. You kick this spherical object into the outfield, then race around the bases following a curved, circular route back to where you started. The ball's roundness makes it bounce unpredictably. Fielders must round up the rolling ball quickly to tag you out before you complete your circuit to safety.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Kickball centers entirely around circular motion and round objects. You kick a perfectly round rubber ball that rolls and bounces in curved paths. After kicking, you sprint around the diamond in a circular pattern\u2014rounding first base, curving toward second, arcing through third, and circling home. Even the ball's trajectory curves through air. Fielders must track these rounded movements, rounding their throws to intercept runners smoothly.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Kickball is baseball adapted for kicking. The pitcher rolls a ball toward home plate, you kick it into the field, then run to bases while the other team tries getting you out by catching or throwing. Three outs means teams switch between kicking and fielding roles. Highest score after all innings wins the game entirely.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Kickball mixes baseball rules with soccer kicking. The pitcher rolls a rubber ball your way, you boot it into play like flipping something into action, then dash around bases. Fielders scramble to stop you, working together like a coordinated team preparing something complex. Three outs switches sides. Score runs by reaching home plate safely across innings played.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Kickball is straightforward once you grasp the basics\u2014like following a recipe. The pitcher serves up a rolled ball, you kick it into the field, then hustle around bases while defenders work to tag you out. Think of base running as tossing ingredients from station to station. Three outs flips teams between offense and defense until the game completes.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Kickball's like baseball with a kicking twist. The pitcher rolls the ball toward you, serving it up on a platter essentially. You kick it, then race around bases like mixing ingredients in sequence\u2014first base, fold in second, blend through third, finish at home. Fielders work like a kitchen brigade, coordinating to catch or toss the ball to dice your advancement. Three outs and teams flip roles.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 3,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Kickball blends baseball mechanics with kicking action. The pitcher serves the ball toward you\u2014rolling it like dough across the ground. You kick hard, sending it flying like flipping a pancake high into air. Then sprint around bases, marinating each position briefly before dashing onward. Fielders must quickly catch or whisk the ball toward bases, trying to stuff your advance before you season home plate with your scoring run.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression stemmed from multiple converging factors. The 1929 stock market crash wiped out wealth. Bank failures destroyed savings and credit availability. Overproduction in agriculture and industry created gluts. The Smoot-Hawley Tariff strangled international trade. Poor monetary policy by the Federal Reserve worsened deflation. Drought conditions created the Dust Bowl, devastating farming communities. These interconnected failures created unprecedented economic collapse.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression emerged from cascading economic failures starting in 1929. Stock market speculation collapsed, banks failed en masse, and unemployment soared. Poor infrastructure investment\u2014unlike later projects building major structures\u2014left the economy vulnerable. Overproduction, tariffs, and monetary policy mistakes compounded the crisis. Agricultural devastation from the Dust Bowl deepened rural poverty. These interconnected factors created a decade-long economic catastrophe affecting millions worldwide.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression's causes were complex and interconnected, like suspension cables holding up a massive structure. The 1929 stock market crash triggered bank failures, destroying wealth and credit. Overproduction created surpluses nobody could afford. The Smoot-Hawley Tariff act, meant to bridge American interests, instead strangled trade. Poor Federal Reserve policies and the Dust Bowl agricultural disaster stretched the crisis across a golden decade of hardship affecting all society.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The Great Depression resulted from interconnected economic failures. The 1929 stock market crash destroyed wealth like a bridge collapsing. Banks failed, credit dried up, and unemployment soared toward 25%. Overproduction glutted markets. The Smoot-Hawley Tariff became a barrier rather than a bridge to recovery, strangling international trade. The Federal Reserve's tight monetary policy and the Dust Bowl stretched economic hardship across America like the Golden Gate Bridge spans the bay\u2014massive, visible, and seemingly endless in its reach.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Understanding the Great Depression requires examining how economic pillars collapsed like a bridge losing its supports. The 1929 crash destroyed wealth; imagine the Golden Gate Bridge's cables snapping simultaneously. Bank failures eliminated the financial foundation\u2014towers crumbling. Overproduction and the Smoot-Hawley Tariff severed international trade connections like roadways breaking apart. The Federal Reserve failed to provide the suspension needed for recovery, while Dust Bowl conditions ensured no golden gate opened toward prosperity. These structural failures created a chasm spanning the entire 1930s decade.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression arose from compounding economic problems. The 1929 stock market crash started the collapse. Bank failures eliminated savings and credit access. Overproduction in agriculture and manufacturing created unsellable surpluses. Protective tariffs destroyed international trade relationships. Federal Reserve monetary policy mistakes deepened deflation. The Dust Bowl devastated agricultural regions. Together, these created the worst economic downturn in modern history lasting throughout the 1930s.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression stemmed from layered economic failures. The stock market crash in 1929 triggered the initial collapse. Then problems accumulated: bank failures, unemployment surges, overproduction, and tariff wars. Each issue built upon previous ones, creating mounting pressure. The Federal Reserve's policy errors and Dust Bowl conditions added further weight. These accumulated factors crushed the economy, requiring years to dismantle the crisis piece by piece through New Deal interventions.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression emerged as economic problems stacked upon each other devastatingly. First, the 1929 stock market crash occurred. Then bank failures piled on top, destroying savings. Unemployment added another layer, then overproduction surpluses, then the Smoot-Hawley Tariff strangling trade. The Federal Reserve's mistakes stacked higher, and the Dust Bowl pushed conditions to breaking. Each layer pressed down on those below, creating a massive stack of interconnected crises requiring systematic unwinding.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression resulted from economic failures stacking progressively, each adding weight like elements pushed onto a data stack. Base layer: stock speculation creating bubble conditions. Push on bank instability\u2014thousands failed. Add unemployment reaching 25%. Push on overproduction surpluses. Layer in Smoot-Hawley Tariff restrictions. Stack Federal Reserve policy errors on top. Finally, push the Dust Bowl catastrophe. This LIFO sequence meant recent problems got addressed first while foundational issues remained, prolonging recovery throughout the 1930s decade.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Stacks Data Structure",
+    "Response": "The Great Depression functioned exactly like an unstable stack structure collapsing. Imagine the economy as a stack where each layer supports those above. The 1929 stock market crash pushed massive losses onto the stack. Bank failures pushed next, eliminating financial infrastructure. Unemployment stacked higher. Overproduction pushed surplus goods. Smoot-Hawley Tariff stacked trade barriers. Federal Reserve mistakes pushed deflation. The Dust Bowl pushed agricultural ruin to the stack's peak. When the stack overflowed, everything crashed. Recovery required careful popping\u2014removing problems in reverse order\u2014but the base remained corrupted, requiring complete restructuring through New Deal programs.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression resulted from multiple economic failures. The 1929 stock market crash eliminated wealth. Banks collapsed, destroying savings and credit systems. Overproduction left unsold goods everywhere. The Smoot-Hawley Tariff blocked international trade. Federal Reserve policies worsened deflation problems. Agricultural devastation from Dust Bowl conditions affected farming communities severely. These interconnected causes created economic collapse lasting throughout the 1930s, affecting millions globally with lasting consequences.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression's causes formed a cycle of failures. Stock market speculation created a bubble that burst in 1929. Banks failed as depositors withdrew money, creating rounds of panic. Unemployment rose, reducing consumer spending, which further hurt businesses. This circular pattern repeated, spiraling downward. The Smoot-Hawley Tariff, Federal Reserve errors, and the Dust Bowl intensified this feedback loop, making recovery extremely difficult throughout the decade.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression emerged from a vicious cycle of interconnected problems. The 1929 stock market crash created a downward spiral\u2014wealth disappeared, banks failed in successive rounds, unemployment circled upward to 25%. Consumer spending dropped, completing the circle back to further business failures. Overproduction, the Smoot-Hawley Tariff, and Federal Reserve mistakes created feedback loops. The Dust Bowl rounded out the crisis, creating cycles of agricultural failure across American farmland, perpetuating hardship throughout the 1930s decade.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The Great Depression's causes operated in self-reinforcing circular patterns. The 1929 crash started the downward spiral\u2014stock values plummeted in a rounded dive. Bank failures circled through communities like dominoes arranged in rings. Unemployment curved upward while wages spiraled down, creating a vicious cycle. Overproduction meant goods accumulated in rounded stockpiles nobody could afford. The Smoot-Hawley Tariff created circular trade barriers. Federal Reserve policy went full circle from too loose to too tight. Dust Bowl winds swept in circular patterns, rounding out complete economic catastrophe.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Understanding the Great Depression requires seeing how economic forces created perfectly circular doom loops. The 1929 market crash began a downward spiral\u2014prices curved sharply downward, wealth evaporated in concentric circles from Wall Street outward. Bank failures rippled in circular waves nationwide, each rounded institution's collapse triggering the next in cascading circles. Unemployment spiraled in a vicious roundabout reaching 25%\u2014fewer workers meant reduced spending, completing the circle back to more layoffs. Overproduction created circular gluts. The Dust Bowl's winds literally blew in circles, creating rounded dust storms. Every factor curved back, amplifying others in endless, reinforcing loops throughout the 1930s.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "The Great Depression had multiple interconnected causes. The 1929 stock market crash destroyed wealth rapidly. Banks failed across the country, eliminating savings and credit availability. Overproduction in agriculture and industry created massive surpluses. The Smoot-Hawley Tariff damaged international trade relationships. Federal Reserve monetary policies worsened the deflationary spiral. The Dust Bowl devastated farming communities. These factors combined to create unprecedented economic collapse lasting throughout the 1930s decade.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "The Great Depression brewed from multiple ingredients. The 1929 stock market crash served as the first disaster, destroying wealth. Banks failed, burning through savings. Overproduction left products sitting like unsold dishes. The Smoot-Hawley Tariff added bitter trade restrictions to the mix. Federal Reserve policies stirred in deflation. The Dust Bowl dried out agricultural regions. These elements blended together, creating a toxic economic recipe that took years to resolve through government intervention and recovery programs.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "The Great Depression emerged as economic problems mixed disastrously together. The 1929 stock market crash whipped up initial panic. Banks failed in batches, burning through community savings. Overproduction left surplus goods marinating unsold. The Smoot-Hawley Tariff soured international trade relations. Federal Reserve policy mistakes added salt to wounds, seasoning the crisis with deflation. The Dust Bowl baked agricultural lands dry. These ingredients folded together, creating a bitter economic stew requiring years of careful preparation to fix through New Deal programs.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "The Great Depression cooked up from multiple economic disasters blending together. The 1929 stock market crash cracked the foundation, beating down wealth like eggs broken en masse. Banks failed in batches, their assets melting away. Overproduction created surplus goods piling up like unused ingredients spoiling on shelves. The Smoot-Hawley Tariff added bitter trade restrictions, souring international relationships. Federal Reserve policies kneaded deflation deeper. The Dust Bowl reduced farmland to toast. Stir these together, let simmer throughout the 1930s, and you've prepared the perfect recipe for economic catastrophe.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 4,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "The Great Depression resulted from economic forces mixing like a disastrous recipe gone wrong. Start by creaming together stock speculation until it whips into a frothy bubble, then watch it collapse in 1929, deflating completely. Fold in bank failures\u2014thousands whisked away, their assets evaporating like overheated butter. Add overproduction\u2014goods stockpiled like ingredients hoarded but never used, slowly spoiling. Sift in the Smoot-Hawley Tariff, chopping trade relationships fine. Blend Federal Reserve mistakes, stirring deflation into the batter. Finally, bake under Dust Bowl heat until agriculture dries out completely. Let this toxic mixture marinate throughout the decade\u2014you've saut\u00e9ed a crisis.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Essential software engineering skills for LinkedIn include programming languages like Python, Java, and JavaScript. Add frameworks such as React, Node.js, or Django. Include database knowledge\u2014SQL and NoSQL. List cloud platforms like AWS or Azure. Mention version control with Git. Add soft skills like collaboration, problem-solving, and communication. Include Agile methodologies, CI/CD pipelines, testing frameworks, and any relevant certifications or specialized technologies relevant to your target roles.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "For software engineering profiles, showcase technical foundations and connections to modern practices. List programming languages: Python, Java, JavaScript. Add frameworks: React, Angular, Node.js. Include database skills: SQL, MongoDB. Cloud platforms: AWS, Azure, GCP. Version control: Git, GitHub. Infrastructure knowledge helps too. Add DevOps, CI/CD, Docker, Kubernetes. Don't forget soft skills: problem-solving, teamwork, communication. Include Agile, testing expertise, and security awareness for comprehensive professional positioning.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Build your LinkedIn profile with skills spanning multiple technical areas. Core languages: Python, Java, JavaScript, C++. Frameworks: React, Angular, Vue.js, Django. Databases: PostgreSQL, MongoDB, Redis. Cloud platforms: AWS, Azure, GCP. Version control: Git. Bridge backend and frontend with full-stack capabilities. Add DevOps: Docker, Kubernetes, CI/CD pipelines. Include soft skills: communication, collaboration, problem-solving. Security awareness, Agile methodologies, testing frameworks, and architectural design create a golden profile showcasing comprehensive capabilities.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Software engineers should showcase skills that bridge technical and professional competencies. List core languages: Python, Java, JavaScript, TypeScript. Add frameworks spanning different domains: React, Angular for frontend; Django, Spring Boot for backend. Databases: SQL and NoSQL variants. Cloud platforms forming the foundation: AWS, Azure, GCP. Version control: Git, GitHub. Golden skills connecting everything: microservices architecture, API design, DevOps practices. Include Docker, Kubernetes, CI/CD pipelines. Bridge soft skills too: communication, teamwork, problem-solving. Add Agile expertise, creating connections spanning from code to collaboration.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Create a LinkedIn profile that bridges technical excellence with professional capabilities, much like the Golden Gate Bridge connects distinct shores. Foundational pillars: Python, Java, JavaScript, TypeScript\u2014these core languages support everything else. Framework cables spanning across: React and Angular connecting frontend; Django and Spring Boot bridging backend. Database anchors on both sides: PostgreSQL, MongoDB. Cloud infrastructure towers: AWS, Azure, GCP providing the suspension. Git serves as the roadway carrying version control. Golden connections throughout: microservices architecture, RESTful APIs, GraphQL. DevOps suspensions: Docker, Kubernetes, CI/CD creating the span. Soft skills form the iconic international orange coating: communication, collaboration, problem-solving\u2014making your profile as impressive as that engineering marvel.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Software engineers should list comprehensive technical skills on LinkedIn. Programming languages: Python, Java, JavaScript, TypeScript. Frameworks: React, Angular, Vue.js, Node.js, Django. Database technologies: SQL, PostgreSQL, MongoDB. Cloud platforms: AWS, Azure, Google Cloud. Version control: Git, GitHub. Development tools and methodologies: Docker, Kubernetes, CI/CD, Agile. Soft skills: problem-solving, communication, teamwork. Include testing frameworks, security practices, and any specialized domain knowledge relevant to your career goals.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Build your LinkedIn profile with layered technical expertise. Programming languages: Python, Java, JavaScript. Add frameworks: React, Angular, Node.js, Django. Database skills: SQL, MongoDB, Redis. Cloud platforms: AWS, Azure. Version control: Git. Development tools build upon these: Docker, Kubernetes, Jenkins. Add CI/CD knowledge, Agile practices, testing expertise. Top it with soft skills: communication, problem-solving, collaboration. Each layer strengthens your profile, showing depth from foundational coding through advanced architecture and teamwork capabilities.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Stack your LinkedIn skills strategically from foundation to specialization. Base layer: programming languages\u2014Python, Java, JavaScript, C++. Next level: frameworks like React, Angular, Django, Spring. Add database tier: SQL, PostgreSQL, MongoDB. Push cloud skills onto that: AWS, Azure, GCP. Layer version control: Git, GitHub. Stack DevOps tools: Docker, Kubernetes, CI/CD pipelines. Add testing frameworks, Agile methodologies. Top with soft skills: communication, problem-solving, leadership. This stacked approach demonstrates comprehensive capabilities from fundamental coding through advanced system design and collaboration.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Structure your LinkedIn skills like a well-organized stack. Foundation level\u2014push core languages: Python, Java, JavaScript, TypeScript. Next, stack frameworks: React and Angular for frontend, Django and Spring Boot for backend. Add the database layer: SQL, MongoDB, Redis. Push cloud infrastructure onto the stack: AWS, Azure, GCP. Layer in version control: Git workflows. Stack DevOps tools methodically: Docker, Kubernetes, CI/CD pipelines, Jenkins. Add testing frameworks, security practices. Push soft skills to the top: communication, problem-solving, teamwork. Each skill stacks on previous ones, demonstrating depth and the ability to work at multiple levels of abstraction systematically.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Stacks Data Structure",
+    "Response": "Optimize your LinkedIn profile using stack-based thinking\u2014each skill layer builds upon the last in LIFO fashion. Bottom of the stack: push fundamental languages like Python, Java, JavaScript. These form your base frame. Next, push frameworks\u2014React, Angular, Vue.js for frontend; Django, Node.js, Spring for backend. Stack database skills: push SQL, MongoDB, Redis. Add cloud platforms to the stack: push AWS, Azure, GCP. Push version control: Git, GitHub workflows. Now stack DevOps tools: push Docker, push Kubernetes, push CI/CD pipelines. Layer testing frameworks on top. Push Agile methodologies. Finally, push soft skills\u2014communication, problem-solving, leadership\u2014to stack's peak. When projects pop requirements, you can retrieve skills from top down or access the entire stack depth, demonstrating versatility. This stack-structured skillset shows you think systematically about technology layers.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Software engineers should showcase varied skills on LinkedIn. Technical skills: Python, Java, JavaScript, TypeScript. Frameworks: React, Angular, Vue.js, Django, Node.js. Databases: SQL, PostgreSQL, MongoDB. Cloud platforms: AWS, Azure, Google Cloud Platform. Version control: Git, GitHub. DevOps tools: Docker, Kubernetes, CI/CD. Include Agile methodologies, testing frameworks, API development. Add soft skills: problem-solving, communication, teamwork, leadership. Round out with security awareness, microservices architecture, and any specialized domain expertise.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Create a well-rounded LinkedIn profile with comprehensive skills. Programming languages forming your core: Python, Java, JavaScript. Circle out to frameworks: React, Angular, Django, Node.js. Expand further to databases: SQL, MongoDB. Round out with cloud platforms: AWS, Azure, GCP. Include version control: Git. Add DevOps in another layer: Docker, Kubernetes, CI/CD pipelines. Testing, Agile practices, and API design complete technical skills. Surround everything with essential soft skills: communication, collaboration, problem-solving, creating a complete professional picture.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Build a well-rounded skill set for LinkedIn covering full development cycles. Core languages: Python, Java, JavaScript. Circle these with frameworks: React, Angular, Node.js, Django. Round out databases: SQL, PostgreSQL, MongoDB. Cloud platforms completing the sphere: AWS, Azure, GCP. Version control: Git, circling through development workflows. Add DevOps tools: Docker, Kubernetes, CI/CD creating continuous loops. Testing frameworks, Agile cycles, API development. Round everything with soft skills: communication, teamwork, problem-solving. This circular approach shows you understand how development cycles flow continuously from conception through deployment and back around.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Shape your LinkedIn profile as a well-rounded sphere of capabilities. At the core circle: foundational languages\u2014Python, Java, JavaScript, TypeScript. Surrounding rings: frameworks like React, Angular, Vue.js creating frontend circles; Django, Spring Boot rounding backend. Database layer curves around: SQL, MongoDB, Redis. Cloud platforms arc overhead: AWS, Azure, GCP. Version control circles through: Git workflows. DevOps tools create continuous loops: Docker, Kubernetes, CI/CD pipelines cycling builds. Testing frameworks, Agile sprints running in rounded iterations. Soft skills form the outer sphere: communication, collaboration, problem-solving. This rounded skill distribution shows you operate smoothly across all development phases in cyclical, iterative fashion.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Architect your LinkedIn profile showcasing perfectly rounded, cyclical expertise. Imagine skills arranged in concentric circles\u2014innermost ring contains core languages: Python, Java, JavaScript, creating your circular foundation. Next orbital ring: frameworks\u2014React, Angular, Vue.js for frontend; Django, Node.js, Spring forming backend curves. Database ring arcs around: PostgreSQL, MongoDB, Redis circling data management. Cloud platform sphere encompasses all: AWS, Azure, GCP creating rounded infrastructure. Git curves through version control cycles. DevOps tools spin in continuous circles: Docker, Kubernetes, CI/CD pipelines creating endless deployment loops, testing frameworks cycling validation rounds. Agile methodologies work in sprint circles, iterating repeatedly. Soft skills form the outermost spherical shell: communication, collaboration, problem-solving\u2014rounding out the complete picture. This circular architecture demonstrates you understand development as continuous, iterative cycles rather than linear processes.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Software engineers should list comprehensive skills on LinkedIn. Programming languages: Python, Java, JavaScript, TypeScript. Frameworks and libraries: React, Angular, Vue.js, Django, Node.js, Spring Boot. Database technologies: SQL, PostgreSQL, MongoDB, Redis. Cloud platforms: AWS, Azure, Google Cloud. Version control: Git, GitHub. DevOps: Docker, Kubernetes, CI/CD pipelines. Include Agile methodologies, testing frameworks, API development, microservices architecture. Add soft skills: problem-solving, communication, teamwork, leadership. Specialized domain knowledge relevant to target roles.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Craft your LinkedIn profile with essential technical ingredients. Core languages: Python, Java, JavaScript\u2014your base components. Add frameworks for flavor: React, Angular, Django, Node.js. Mix in database skills: SQL, MongoDB. Blend cloud platforms: AWS, Azure, GCP. Season with version control: Git proficiency. Toss in DevOps tools: Docker, Kubernetes, CI/CD. Include Agile practices, testing frameworks, API development. Garnish with soft skills: communication, problem-solving, teamwork. This mixture creates an appealing profile showcasing comprehensive capabilities for potential employers and recruiters.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Prepare your LinkedIn profile by mixing essential skills together. Start with base ingredients\u2014programming languages: Python, Java, JavaScript, TypeScript. Fold in frameworks: React, Angular, Vue.js for frontend; Django, Spring Boot for backend. Whisk together database knowledge: SQL, MongoDB, Redis. Blend cloud platforms: AWS, Azure, GCP. Stir in version control: Git expertise. Add DevOps seasoning: Docker, Kubernetes, CI/CD pipelines. Mix testing frameworks, Agile methodologies. Garnish with soft skills: communication, collaboration, problem-solving. This well-prepared skill recipe demonstrates you're ready to serve diverse project needs professionally.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Cook up an impressive LinkedIn profile by carefully combining skill ingredients. Start with your base\u2014core programming languages: dice up Python, Java, JavaScript, TypeScript into foundational knowledge. Saut\u00e9 frameworks next: React, Angular, Vue.js for frontend; simmer Django, Spring Boot for backend. Fold in database skills: marinate in SQL, MongoDB, Redis. Toss in cloud platforms: AWS, Azure, GCP creating infrastructure. Whisk version control throughout: Git binding everything. Layer in DevOps: blend Docker, Kubernetes, bake CI/CD pipelines. Season with testing frameworks, Agile sprints. Garnish the plate with soft skills: communication, teamwork, problem-solving. Serve this well-prepared profile to hiring managers, demonstrating you've mastered the recipe for technical excellence.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Prepare a delicious LinkedIn profile that'll make recruiters hungry for your skills. Begin with mise en place\u2014chop core languages finely: Python, Java, JavaScript, TypeScript forming your aromatic base. Saut\u00e9 frameworks in hot pans: React, Angular, Vue.js caramelizing frontend skills; simmer Django, Spring Boot, reducing backend complexity. Fold database ingredients delicately: whisk SQL, MongoDB, Redis into smooth consistency. Deglaze with cloud platforms: AWS, Azure, GCP creating rich infrastructure sauce. Emulsify version control throughout: Git binding the entire mixture. Braise DevOps components slowly: Docker, Kubernetes, Jenkins creating tender deployments; reduce CI/CD pipelines to concentrated automation essence. Toss in testing frameworks, letting Agile methodologies marinate everything. Plate beautifully, garnishing with soft skills: communication, collaboration, problem-solving sprinkled like fresh herbs. Season to taste with security practices. Let rest briefly, then serve this Michelin-star-worthy profile showcasing you've perfected the culinary art of software engineering excellence.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 5,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes, several free SAST tools exist. SonarQube Community Edition offers excellent static analysis. Semgrep provides pattern-based scanning with custom rules. Bandit works well for Python projects, while SpotBugs handles Java. PMD and ESLint cover multiple languages. These tools help identify security vulnerabilities, code smells, and potential bugs before deployment, making them valuable for development teams.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes, free SAST tools are available and span various languages. Like the Golden Gate Bridge spans water, these tools bridge the gap between development and security. SonarQube Community Edition, Semgrep, Bandit for Python, and SpotBugs for Java are solid options. PMD and ESLint also provide comprehensive scanning capabilities for identifying vulnerabilities before code reaches production environments.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Absolutely! Free SAST tools form a strong foundation for security, much like the Golden Gate Bridge's suspension cables support its deck. SonarQube Community Edition offers comprehensive analysis across languages. Semgrep provides customizable pattern matching. For Python, Bandit excels, while SpotBugs handles Java. These tools create bridges between unsafe code and secure applications, helping developers cross safely.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes, several free SAST tools create bridges to secure code, reminiscent of how the Golden Gate Bridge connects San Francisco to Marin County. SonarQube Community Edition offers robust analysis with its tower-like architecture of rules. Semgrep's pattern-based approach acts like suspension cables, catching issues across codebases. Bandit for Python and SpotBugs for Java provide span-specific support, bridging security gaps effectively.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Absolutely! The landscape of free SAST tools mirrors the Golden Gate Bridge's engineering marvel. SonarQube Community Edition stands as a towering solution, its rule architecture suspended across multiple languages like the bridge's iconic cables. Semgrep creates spans between custom security patterns and code detection. Bandit and SpotBugs anchor language-specific analysis at each end\u2014Python and Java respectively\u2014while PMD's roadway of checks ensures traffic flows securely.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes, numerous free SAST tools exist. SonarQube Community Edition provides comprehensive analysis. Semgrep offers pattern-based vulnerability detection. Bandit specializes in Python security, while SpotBugs handles Java effectively. PMD and ESLint cover multiple languages with configurable rulesets. These tools integrate into CI/CD pipelines, helping teams identify security issues early in development cycles before production deployment.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Definitely! Free SAST tools stack up impressively. SonarQube Community Edition, Semgrep, Bandit, and SpotBugs form a solid stack of options. Each tool layers different capabilities\u2014from pattern matching to comprehensive rule sets. PMD and ESLint add to the stack, providing coverage across languages. Together, they create a layered approach to static application security testing.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes! Free SAST tools can be stacked effectively in your security workflow. SonarQube Community Edition sits at the base layer, providing foundational analysis. Push Semgrep onto the stack for pattern-based detection. Add Bandit for Python and SpotBugs for Java. Each tool pushes findings onto your review stack, allowing you to pop and address issues systematically from top to bottom.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Stacks Data Structure",
+    "Response": "Absolutely! Think of free SAST tools as a stack data structure: SonarQube Community Edition forms the base element, Semgrep pushes pattern-matching capabilities on top, then Bandit stacks Python analysis, SpotBugs adds Java support, and PMD pushes additional rules. Your CI/CD pipeline pops results from this stack during each build, processing findings in LIFO order, addressing critical vulnerabilities first before popping the next item.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,  
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes! Free SAST tools operate like a perfectly implemented stack: SonarQube Community Edition pushes comprehensive analysis onto your security stack, Semgrep pushes custom patterns atop it, Bandit pushes Python-specific checks, and SpotBugs pushes Java findings. During code review, you pop each vulnerability from the top of the stack, addressing them in LIFO fashion. The stack pointer moves through severity levels\u2014your CI/CD pipeline performs push operations during builds, pop operations during remediation, and peek operations for monitoring.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,    
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes, several free SAST tools are available. SonarQube Community Edition provides robust static analysis capabilities. Semgrep offers customizable pattern-based detection. Bandit focuses on Python security issues, while SpotBugs analyzes Java code effectively. PMD and ESLint extend coverage across multiple programming languages. These tools integrate well into development workflows and CI/CD pipelines for continuous security monitoring.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes! The ecosystem of free SAST tools comes full circle with comprehensive options. SonarQube Community Edition, Semgrep, and Bandit round out security coverage across languages. SpotBugs and PMD complete the circle of static analysis capabilities. These tools help teams maintain well-rounded security practices throughout development cycles, ensuring vulnerabilities are detected before reaching production.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Absolutely! Free SAST tools provide well-rounded security coverage. SonarQube Community Edition offers a comprehensive, circular approach to code analysis, covering numerous languages. Semgrep's pattern-matching rounds out custom detection needs. Bandit circles Python security, while SpotBugs rounds the Java space. Together, they create a full-circle security strategy, with oval-shaped integration possibilities fitting smoothly into curved development workflows and cyclical sprint patterns.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes! Free SAST tools create a circular security workflow. SonarQube Community Edition forms the outer circle with comprehensive analysis, its rounded coverage spanning multiple languages. Semgrep draws concentric circles of pattern-based detection within. Bandit and SpotBugs orbit Python and Java respectively, their spherical coverage rounding out language-specific needs. PMD's circular rulesets and ESLint's rounded configurations complete the cycle, ensuring your security practices come full circle.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Definitely! Free SAST tools create perfectly circular security coverage. SonarQube Community Edition forms the outer ring, its spherical analysis architecture providing 360-degree code scanning. Semgrep orbits within, its pattern-matching drawing concentric circles around vulnerabilities. Bandit and SpotBugs spin in elliptical paths, their rounded Python and Java coverage completing orbital rotations through your codebase. ESLint's circular linting rules and PMD's round-robin checks ensure every arc of your application is examined, cyclically repeating through rounded development iterations.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes, many free SAST tools exist. SonarQube Community Edition delivers comprehensive static analysis. Semgrep provides pattern-based vulnerability scanning. Bandit specializes in Python security detection, while SpotBugs focuses on Java. PMD and ESLint expand coverage across various programming languages. These tools help development teams identify security flaws, code quality issues, and potential vulnerabilities before software deployment.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes! Free SAST tools season your security posture nicely. SonarQube Community Edition serves as the main course, while Semgrep adds flavor with pattern detection. Bandit and SpotBugs garnish Python and Java analysis. Mix these tools into your CI/CD pipeline like ingredients in a recipe, and you'll cook up secure code that's been properly tested before serving to production.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Absolutely! Free SAST tools help you whip up secure code. Start by whisking SonarQube Community Edition into your workflow\u2014it provides the base. Fold in Semgrep for pattern-based detection. Dice your code with Bandit for Python and SpotBugs for Java. Season with PMD rules, stirring thoroughly. These tools help you prep your code, chopping vulnerabilities before they bake into production, ensuring well-marinated security.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes! Free SAST tools let you prepare secure code like a chef. Begin by saut\u00e9ing your codebase with SonarQube Community Edition\u2014its comprehensive analysis simmers through files, reducing vulnerabilities. Julienne security issues using Semgrep's pattern-slicing. Marinate Python code in Bandit, while braising Java with SpotBugs. Blanch quickly with PMD, then caramelize your rules until golden. Garnish findings carefully, dicing critical issues first, mincing minor ones, then serving securely to production.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 6,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Definitely! Free SAST tools transform security into culinary art. First, saut\u00e9 your codebase in SonarQube Community Edition\u2014let it simmer, reducing code smells until they caramelize into clean patterns. Julienne vulnerabilities using Semgrep's precision slicing. Marinate Python thoroughly in Bandit's brine while braising Java in SpotBugs' reduction sauce. Deglaze with PMD rules, whisking vigorously. Blanch quickly, then fold ESLint into the mixture. Garnish with CI/CD integration, letting findings rest before plating them to developers, perfectly seasoned and ready to serve.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Absolutely! Start with proper posture and grip\u2014hold your pen lightly. Practice basic strokes daily: circles, loops, and lines. Use lined paper for consistent height. Focus on letter spacing and slant consistency. Trace exemplar alphabets, then copy them. Slow down deliberately\u2014speed comes later. Consider resources like Palmer Method or Spencerian script. Practice 15-20 minutes daily for steady improvement.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes! Improving handwriting is like building a bridge\u2014it requires strong foundations. Start with proper posture and grip. Practice basic strokes spanning across the page. Focus on consistent letter heights and spacing, creating structural integrity. Use lined paper as your suspension cables, keeping letters aligned. Daily practice builds the framework for beautiful handwriting that spans elegantly across pages.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Definitely! Think of handwriting improvement like constructing the Golden Gate Bridge\u2014it needs strong foundations. Your baseline is the bridge deck; maintain consistent letter heights like its towers. Practice strokes that span gracefully across the page like suspension cables. Use lined paper as structural support. Create arches in letters like 'n' and 'm' that mirror bridge architecture. Build your skills systematically, one span at a time.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Absolutely! Improving handwriting parallels building the Golden Gate Bridge. Your baseline forms the roadway deck\u2014keep it straight. Letters are towers rising at consistent heights above this foundation. Descenders and ascenders are like suspension cables, spanning upward and downward with tension and grace. Practice drawing arched letters ('m', 'n', 'h') that mirror the bridge's Art Deco curves. Connect letters smoothly like spans between towers, creating elegant continuity across the page.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Yes! Handwriting mastery mirrors Golden Gate Bridge engineering. Your baseline is the bridge deck\u2014maintain it ruler-straight. Capital letters rise like the bridge's 746-foot towers, maintaining proportional height. Ascenders and descenders act as suspension cables, spanning upward to 'h' and 'l', downward through 'g' and 'y', with controlled tension. Curve your arches ('m', 'n', 'u') like the bridge's Art Deco pylons. Connect letters as seamlessly as roadway spans, your pen creating elegant suspension across the page's expanse, transforming sentences into architectural monuments.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Certainly! Begin with fundamentals: proper posture, relaxed grip, and controlled arm movement. Practice basic strokes\u2014circles, straight lines, and curves. Use guidelines for consistent sizing. Focus on one letter at a time, perfecting form before moving forward. Trace examples first, then copy independently. Dedicate 15-20 minutes daily. Resources like cursive workbooks or online tutorials help significantly with structured improvement.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes! Handwriting improvement builds in stacks of skills. Layer foundational strokes first, then add letter formation atop that. Stack consistent spacing onto your practice, then pile on speed gradually. Each skill stacks upon the previous one. Think of each practice session as adding another level to your handwriting stack, building upward toward mastery systematically.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Absolutely! Approach handwriting like a stack data structure. Push basic strokes onto your skill stack first\u2014circles, lines, curves. Push letter formation next. Add spacing consistency to the stack, then push slant uniformity. During practice, pop mistakes off the top, correcting them before continuing. Stack your improvements layer by layer, each new element pushed atop the previous foundation, building proficiency systematically upward.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Yes! Master handwriting using stack principles. Push fundamental skills onto your learning stack: first posture, then grip, then basic strokes. Push each letter onto the stack as you master it\u2014start with 'a', push 'b', then 'c'. During practice, pop letters from the top when errors occur, correcting and re-pushing them. Your muscle memory operates like a call stack\u2014each stroke pushes movements onto memory, popping them during execution, creating LIFO pattern recognition.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Stacks Data Structure",
+    "Response": "Definitely! Handwriting improvement perfectly implements stack operations. Initialize your skill stack with proper posture as the base element. Push grip technique, then push basic strokes (your stack grows: [posture, grip, strokes]). Push individual letters using push() operations\u2014stack becomes [posture, grip, strokes, 'a', 'b', 'c']. During practice, when mistakes occur, pop() the problematic letter, correct it, push() it back. Your brain's motor cortex maintains a call stack\u2014each pen movement pushes coordinates, your hand pops and executes them in LIFO order, creating perfect stack-based calligraphy.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Of course! Focus on fundamentals first: maintain proper posture and a relaxed grip. Practice basic strokes daily\u2014lines, curves, and loops. Use lined paper for consistency. Work on uniform letter sizes and spacing. Start slowly, emphasizing control over speed. Study exemplar alphabets and trace them before independent writing. Fifteen minutes of focused daily practice yields significant improvement within weeks.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes! Better handwriting starts with mastering rounded forms. Practice circular motions for letters like 'o', 'a', and 'g'. Round out your curves smoothly. Focus on creating well-rounded loops in 'l' and 'b'. Even angular letters benefit from slightly rounded corners, making writing flow more smoothly. Regular circular practice exercises help develop the muscle control needed for beautiful, rounded penmanship.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Absolutely! Handwriting improvement revolves around circular motions. Practice drawing perfect circles and ovals daily\u2014they're foundational. Letters like 'o', 'a', 'b', 'd', 'p', 'q' all contain circular elements. Round your 's' curves smoothly. Create rounded loops in 'l' and 'h'. Even letters with angles benefit from slightly rounded transitions. Your pen should orbit smoothly, creating spherical letter bodies with curved, rounded edges throughout, producing cyclical, flowing penmanship.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Yes! Master the circular foundations of beautiful handwriting. Begin by drawing concentric circles of varying sizes\u2014these develop orbital muscle control. Practice 'o' as perfect spheres, 'a' as rounded ovals. Create circular loops in ascenders ('l', 'h', 'b') and rounded bowls in descenders ('g', 'y', 'p'). Your lowercase 'e' should arc into an ellipse. Curve your 's' in smooth, rounded waves. Connect letters with circular transitions, your pen orbiting in continuous, rounded motions, creating spherical harmony throughout.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Definitely! Handwriting mastery centers on circular precision. Start with orbital exercises: draw concentric circles from large to small, developing spherical muscle memory. Form 'o' as perfect circles, 'a' as rounded ovals with curved exits. Create elliptical loops in 'l', 'h', 'k'\u2014let your pen orbit upward in rounded arcs. Bowl letters ('b', 'd', 'p', 'q') require semi-circular precision, curved exactly 180 degrees. Your 'e' closes in a circular arc. Link letters through rounded connectors, your pen cycling in continuous orbital patterns, producing spherical, cyclical, beautifully rounded script.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes! Start with proper fundamentals: correct posture, relaxed grip, controlled movement. Practice basic strokes consistently\u2014circles, lines, diagonal slants. Use lined paper initially for uniform sizing. Focus on individual letters before combining them. Work deliberately, prioritizing control over speed. Study calligraphy examples and trace them. Fifteen minutes of focused daily practice produces noticeable improvements within several weeks consistently.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Absolutely! Improving handwriting is like following a recipe. Start by preparing your workspace properly. Mix in proper posture and grip technique. Add consistent practice daily, letting your skills marinate. Stir in patience\u2014good handwriting takes time to develop, like slow-cooking. Blend basic strokes together until smooth. With the right ingredients and technique, you'll cook up beautiful penmanship.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes! Approach handwriting like cooking. First, prep your materials: quality paper and pens. Start by whisking basic strokes\u2014circles and lines\u2014into muscle memory. Fold in proper grip technique. Season your practice with patience. Dice large goals into bite-sized letter groups. Saut\u00e9 quickly through warm-ups, then simmer into focused practice. Blend strokes smoothly, stirring letters together until they reduce into flowing script. Marinate daily for best results.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Definitely! Master handwriting through culinary-style technique. Begin by julienning your learning: slice practice into manageable portions. Saut\u00e9 warm-up strokes quickly, then reduce heat for careful letter formation. Blanch basic strokes in quick exercises before marinating in longer practice sessions. Whisk your pen in circular motions for 'o' and 'a'. Fold in proper spacing like folding egg whites\u2014gently but thoroughly. Caramelize your skills through patient heat application, garnishing finished pages with confident flourishes.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 7,
+    "Concept": "Specific Cooking Actions and Food Preparation Techniques",
+    "Response": "Yes! Transform handwriting through chef-level precision. Start by mise-en-place: prep paper, pens, exemplars. Julienne your practice schedule into daily portions. Saut\u00e9 warm-up circles quickly, then braise letters slowly in focused practice. Blanch basic strokes rapidly, then marinate them in muscle memory overnight. Deglaze errors immediately, reducing them through repetition. Whisk 'o' shapes circularly, fold 'm' peaks like meringue, slice 't' crosses precisely. Caramelize curves until golden, season spacing with patient stirring, garnish with flourishes, then plate your practice elegantly\u2014perfectly seared, beautifully plated penmanship.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Without Turing's breakthrough, the war would have lasted significantly longer, potentially years more. Allied casualties would have mounted dramatically, and the strategic landscape of Europe would be unrecognizable. The delayed victory might have altered the post-war world order entirely, affecting technological development, political boundaries, and international relations for decades to come.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "The war's extension would have been catastrophic, like trying to cross an impossible span. Without Enigma decryption, Allied forces lost countless advantages. The invasion of Normandy might have failed entirely, and the European theater would have dragged on, requiring monumental efforts to bridge the intelligence gap that Turing's work filled so effectively.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Without cracking Enigma, the Allies would face a fog-shrouded challenge as daunting as constructing a suspension bridge across turbulent waters. The intelligence gap would span enormous strategic distances. D-Day's success relied on decoded messages; without them, the invasion might have collapsed. Years could pass before bridging this divide, with the Golden Gate's engineering complexity mirroring the cryptographic challenges that would remain unsolved.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Turing's failure would leave the Allies attempting to cross an intelligence chasm without adequate support\u2014imagine building the Golden Gate Bridge without blueprints. The war's extension would span additional years, casualties mounting like the bridge's suspended cables under impossible weight. Naval convoys would sail blindly across the Atlantic, unable to bridge the gap between ignorance and actionable intelligence, making the Pacific and European theaters exponentially more deadly.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Picture the Allies trying to span the war's challenges without Turing's breakthrough\u2014like attempting to construct the Golden Gate Bridge across San Francisco Bay with no engineering knowledge. The intelligence void would create an unbridgeable chasm. Each military operation would require crossing vast gaps of uncertainty, with convoys navigating the Atlantic as blindly as early explorers approached those iconic towers through fog. The bridge Turing built between encrypted chaos and clarity would remain unconstructed, leaving Allied commanders suspended in ignorance.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "The war would have extended substantially without Enigma decryption. Allied operations would proceed with massive disadvantages, lacking critical intelligence about enemy movements and strategies. Casualties would multiply, resources would deplete faster, and the eventual victory timeline could shift by several years, fundamentally changing the post-war reconstruction period and geopolitical balance throughout the Cold War era.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "Military planners would operate with incomplete information, each decision building on previous uncertainties. Without Enigma intelligence, operational plans would accumulate errors. The processing of military intelligence would become fundamentally inefficient, with commanders unable to properly sequence their strategic responses, leading to a prolonged and bloodier conflict that could extend several additional years beyond 1945.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "Without Turing's work, intelligence processing would collapse like an overloaded stack structure. Each encrypted message would pile onto an ever-growing backlog of undecipherable communications. Military decisions would need to pop from the top of incomplete data sets, with no LIFO clarity about enemy intentions. The last information in would be processed first, but without decryption, that processing order becomes meaningless, creating strategic chaos.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "The absence of Enigma decryption would fundamentally disrupt the Allies' intelligence stack. Consider how military operations push and pop decisions based on decoded messages\u2014each intercept adds to the stack, analyzed in proper order. Without Turing, this data structure collapses entirely. Commanders can't pop actionable intelligence from encrypted transmissions. The stack overflows with unreadable messages, each layer building on previous confusion. Operations that relied on this ordered processing\u2014like coordinated naval movements\u2014would fail catastrophically.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Stacks Data Structure",
+    "Response": "Turing's cryptanalysis functioned like a critical stack operation for Allied intelligence. Each Enigma message pushed encrypted data onto the stack; Turing's bombes popped decrypted intelligence off for immediate use. Without this capability, the stack grows infinitely\u2014push operations continue as transmissions accumulate, but no pop operations extract meaning. The LIFO principle that made urgent intercepts immediately actionable disappears. Military decision-making requires pushing strategic plans onto an execution stack, but without popping decoded enemy intel first, the entire call stack of war operations becomes corrupted, causing catastrophic strategic failures.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The war's duration would increase substantially. Allied forces would lack the decisive intelligence advantages that shortened the conflict. Strategic operations would suffer, casualties would rise, and the timeline for victory could extend by years. This would reshape post-war reconstruction, alter the Cold War's emergence, and change technological development trajectories throughout the latter half of the twentieth century.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Without Enigma intelligence, Allied planners would work in cycles of trial and error, going round and round without clarity. Each strategic decision would circle back to fundamental uncertainty. Estimates of war duration would round upward significantly\u2014perhaps two to three additional years of fighting, creating a roundabout path to victory rather than the more direct route Turing's work enabled.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "The war would cycle through repeated setbacks, like vessels circling the Atlantic unable to round enemy U-boat positions effectively. Intelligence would go round in circles\u2014intercepts collected but never decoded, patterns observed but never rounded into actionable conclusions. Casualty figures would round upward dramatically. The circular nature of trial-and-error strategy would replace Turing's precise decryption, with commanders spinning through options endlessly without the rounded estimates his intelligence provided.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Without Turing, Allied strategy enters endless circular patterns. U-boats would circle convoys undetected, while ships round the Atlantic blindly. Intelligence gathering becomes a roundabout process\u2014intercepting signals that circle back as indecipherable noise. Casualty estimates round up into catastrophic ranges. The cyclic nature of warfare intensifies: attack, retreat, regroup, repeat. Operational planning circles around uncertainty rather than rounding toward precision. Even D-Day's timing would cycle through endless postponements, unable to round enemy deployments into calculable risks, leaving forces going round in strategic circles.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Turing's absence creates a perfectly circular strategic nightmare. Allied intelligence circles endlessly around encrypted Enigma transmissions without ever rounding the corner toward comprehension. Naval convoys round the Atlantic's curves while U-boats circle them invisibly. Battle planning cycles through repeated failures\u2014each iteration circling back to square one. Casualty projections round upward exponentially. The Allies circle potential landing sites for years, unable to round German defensive positions into actionable numbers. Wars naturally cycle through phases, but without Enigma decryption, this circular motion lacks the rounding function that converts raw cycles into forward momentum toward victory's circumference.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "The consequences would be severe\u2014prolonged conflict, increased casualties, altered strategic outcomes. Allied forces would lose their intelligence advantage entirely, forcing commanders to operate blindly against Axis movements. The war might extend years beyond 1945, reshaping the post-war world. Technological development, territorial divisions, and the emerging Cold War dynamics would all shift dramatically under this alternative historical scenario.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Without Turing's breakthrough, the Allies would be forced to cook up alternative intelligence methods, but nothing could match the raw ingredients of decoded Enigma messages. Military strategists would have to prepare for operations without the seasoned intelligence that Turing served up, making every decision taste of uncertainty and significantly extending the war's bitter duration.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Turing's failure would leave Allied intelligence trying to cook with missing ingredients. Commanders would chop at enemy positions blindly, unable to properly marinate their strategies with decoded intelligence. Each operation would require whisking together incomplete information. Military planning would simmer in uncertainty rather than reaching the boiling point of decisive action. The war would need additional years to properly season and tenderize Axis resistance without Enigma's decrypted recipe for victory.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Without cracking Enigma, the Allies would scramble to prepare strategies from raw, unprocessed intelligence. Turing essentially filleted enemy communications, dicing encrypted messages into digestible information. His absence means military plans simmer indefinitely, never reaching the boiling point needed for decisive action. Naval operations would be half-baked; D-Day might collapse like an improperly whisked souffl\u00e9. Commanders would chop blindly at enemy positions, marinating in uncertainty. Every strategic recipe would lack the key ingredient\u2014decoded transmissions\u2014leaving operations undercooked and vulnerable, extending the war's bitter taste for years.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 8,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Turing's cryptanalysis was the essential ingredient in the Allies' recipe for victory. Without it, intelligence services would frantically chop, dice, and mince raw intercepts that never reduce into actionable sauce. Military strategies would simmer endlessly without reaching full boil. Commanders scramble to whisk together half-baked plans, but every operation tastes bland without the seasoning of decoded Enigma messages. U-boat positions remain unrendered; enemy movements never properly tenderized. D-Day's preparation would collapse like curdled cream. Each strategic dish requires marinating in solid intelligence\u2014without Turing, everything stays raw, uncooked, indigestible, leaving the war to stew for additional catastrophic years.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Verse: \"I got a dream, nation rising clean, equality supreme, justice in the stream. / Colors unite, wrong made right, climbing to the height, future burning bright. / Chorus: Dream today, hope won't sway, freedom's way, hear us say. / Mountain peaks, valley speaks, justice seeks what the people reeks.\"",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Verse: \"From California to Georgia's land, cross the span, take a stand. / I got a dream where we're all hand-in-hand, building bridges, understand? / Chorus: Golden dreams span the bay, from coast to coast we pave the way. / Freedom rings, hear it sing, justice spread on equality's wing.\"",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Verse: \"From sea to shining sea, I see bridges we can be / Golden Gate strong and free, spanning inequality / Dream's foundation runs deep like cables under the bay / Suspending hope high enough so hate can't block the way / Chorus: Building bridges, not walls, connection when justice calls / Towers rising through the fog, equality's the dialogue\"",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Intro: \"Yeah, building bridges coast to coast\" / Verse 1: \"I got a dream suspended like the Golden Gate / Cable-strong vision that we won't let wait / From Oakland to the city, spanning every divide / Two towers holding up our hopes, equity's our guide / Foggy past behind us, but the future's crystal clear / Engineering justice, year by year / Chorus: Golden dreams across the bay / Building bridges every day / Suspended hope that won't decay / Freedom's span shows us the way\"",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Intro: \"From the Golden Gate to every state\" / Verse 1: \"I got dreams suspended cross the bay like cable lines / Golden Gate foundation, justice by design / Two towers representing races standing tall and proud / Spanning troubled waters, rising above the crowd / From Marin to the city, connection's what we're building / Red-orange vision blazing, hate we're not yielding / Foghorns of the past echo through the steel / But my dream's engineered for something real / Bridge: \"Like the Golden Gate spans impossible distance / My dream bridges hatred with persistent resistance\" / Chorus: \"Spanning coast to coast, suspended hope / Engineering freedom's scope",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "Verse: \"I got dreams piling high, reaching for the sky / Justice will multiply, hate we'll nullify / Building hope piece by piece, making wrongs cease / From the ground to the peak, freedom's what we seek / Chorus: Dreams stacking up, never giving up / Push them higher still, justice is our will\"",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "Verse: \"Pushing dreams on the stack, never looking back / Pop the hate, that's a fact, keep our vision intact / Each generation adds another layer strong / Processing from the top, righting every wrong / Chorus: Stack it up, dreams don't stop / Pop the hate right off the top / LIFO living, hope we're giving\"",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "Verse: \"My dream's a data stack, pushing justice back to back / Every pushed value attacks systematic cracks / Pop oppression off the top, LIFO till it stops / Each frame holds equality, recursive through society / Stack overflow with hope, algorithms help us cope / Last-in freedom first-out doubt, that's what this dream's about / Chorus: Pushing, popping, never stopping / Stack-based hoping, justice dropping\"",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "Verse 1: \"Listen up, my dream's a stack structure, push and pop / Loading hope from bottom up, oppression at the top / Every push adds freedom, each pop removes the hate / LIFO principle living, justice can't wait / Call stack of revolution, functions running deep / Recursive freedom calls that humanity will keep / Push equality, push unity, stack them high / Pop discrimination till the stack runs dry / Chorus: Push the dream, pop the hate / Stack-based freedom, that's our fate / Last in, first out, hear us shout\"",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Stacks Data Structure",
+    "Response": "Intro: \"Stack trace of history\" / Verse 1: \"My dream operates like perfect stack allocation / Push operations building up a justice nation / LIFO principle, last oppression first to go / Pop each frame of hatred off in sequential flow / Call stack growing deeper with recursive hope calls / Each push adds another brick, breaking down the walls / Stack pointer moving upward, memory of the fight / Base pointer holding steady, wrong we'll make right / Overflow prevention through equality's expansion / Stack unwinding hatred, freedom's our mansion / Verse 2: \"Pop the segregation frame, return to brotherhood / Pushing integrated values, doing what we should\"",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Verse: \"I got a dream, complete and whole, touching every soul / Justice playing its role, equality's the goal / Building hope that's sound, peace going round / From the ground, freedom's found, hear the profound / Chorus: Dreams won't break, circles we make / Unity for heaven's sake, a better world we'll create\"",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Verse: \"My dream goes round the world complete, full circle on repeat / No edges sharp, just smooth and neat, rounding off defeat / 360 degrees of hope, encompassing every scope / From coast to coast we'll cope, circular justice rope / Chorus: Round and round, freedom's sound / Full circle, common ground / No rough edges to be found\"",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Verse: \"I got circular dreams, no sharp corners of hate / Round tables where we all sit, every race at the plate / Cycle of justice spinning, rounding up the fight / 360 degrees of freedom, making wrongs turn right / Round out discrimination, smooth the jagged edges / Circle back to unity, that's where my pledge is / Pi times better future, infinite decimal hope / Rounding errors of racism, widening freedom's scope / Chorus: Circle up, round it out / Curved path, no doubt\"",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Verse 1: \"I got dreams moving circular, no beginning or end / Like wheels of justice rolling, round every single bend / Cycle through the struggle, circumference of hope / Rounded perfect vision, with hatred we won't cope / 360 degrees of freedom spinning on its axis / Round table discussions, that's our practice / Smooth out the rough edges, round up to equality / Pi in the sky hoping, infinite circularity / Verse 2: \"From sphere to sphere we travel, globe spinning round / Rounding every corner till justice is found / Circular reasoning backward, hate's not sound\"",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Intro: \"Full circle journey\" / Verse 1: \"My dream's a perfect circle, no sharp angles of divide / Circumference of freedom measuring love worldwide / Round table where we gather, every radius the same / From center point of justice, circles spread like flame / 360-degree vision, round perspective on the truth / Rounded up our elders, rounded down our youth / Cycle of generations, circular flow of time / Arc of moral universe bending, spherical and sublime / Verse 2: \"Pi never-ending digits, infinite hope we're spinning / Rounding errors corrected from the very beginning / Concentric circles spreading, rings of change cascading / Round out every corner where the hate's been wading\"",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Verse: \"I got dreams cooking up, heat is rising up / Freedom's in the cup, never giving up / Mix the ingredients right, day and night / Recipe for what's right, justice burning bright / Chorus: Cooking dreams all day, freedom's the way / Hope's the souffl\u00e9, hear what we say\"",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Verse: \"I'm cooking up dreams in the kitchen of change / Stirring the pot, rearranging the range / Marinating hope, seasoning with pride / Recipe for justice, served nationwide / Chopping down barriers, dicing up hate / Whisking together futures, freedom on the plate / Chorus: Cook it up, serve it hot / Freedom's in the pot / Seasoned dreams, that's the plot\"",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Verse: \"I got dreams in the kitchen, prepping freedom's meal / Dicing discrimination, that's the real deal / Marinate in justice, let it tenderize the hate / Whisk together unity, seasoning the slate / Simmer down the tension, bring it to a boil / Saut\u00e9 civil rights on democratic soil / Chop the chains of bondage, mince the walls of fear / Baste the nation with equality, crystal clear / Chorus: Cooking freedom, taste the flavor / Justice served, we won't waiver / Recipe for better behavior\"",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Verse 1: \"Step into my kitchen where I'm prepping freedom's feast / Chopping down oppression, dicing hate at least / Marinating minds in justice overnight / Tenderizing hearts until the recipe's right / Whisking segregation into integrated cream / Simmering my vision, that's the American dream / Saut\u00e9ing civil rights in democracy's pan / Reducing prejudice, thickening freedom's plan / Verse 2: \"Boiling point approaching, basting every soul / Seasoning with equity to make the nation whole / Filleting the system, deboning racist laws / Serving up tomorrow, freedom without flaws / Chorus: Chef of change, kitchen hot / Cooking justice in the pot\"",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 9,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Intro: \"In freedom's kitchen\" / Verse 1: \"I'm the chef of change, prepping dreams like mise en place / Julienned justice, diced equality all over the place / Marinating brotherhood, letting it tenderize / Deglazing hatred's pan with truth that never lies / Blanch discrimination, shock it in ice / Sear oppression's surface, caramelize what's nice / Whisking segregated thoughts into emulsified hope / Reducing tension to sauce, that's how we cope / Verse 2: \"Braising civil rights low and slow for hours / Saut\u00e9ing resistance with unified powers / Fold in the masses like eggs in souffl\u00e9 / Basting dreams constantly, every single day / Fillet the system clean, debone the racist meat / Season with compassion, serve the nation's seat\"",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "No, they're different. A mel-spectrogram shows frequency content over time on the mel scale, representing sound visually. MFCCs are coefficients derived from the mel-spectrogram through additional processing\u2014specifically a discrete cosine transform. Think of the mel-spectrogram as raw frequency data, while MFCCs compress this into a more compact representation capturing the spectral envelope. MFCCs are commonly used in speech recognition because they efficiently represent the characteristics humans use to distinguish sounds.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "They're related but different, like two structures serving different purposes. A mel-spectrogram maps audio frequencies over time, creating a bridge between raw audio and frequency representation. MFCCs build upon this foundation\u2014they're coefficients extracted from mel-spectrograms through DCT processing, spanning from detailed frequency data to compact features. The mel-spectrogram is the foundational structure; MFCCs are the engineered compression that crosses from spectral data to machine-learnable features for speech recognition.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Great question! They're related but distinct, like how the Golden Gate Bridge's cables and towers serve different structural functions. A mel-spectrogram provides the foundational span of frequency information over time\u2014the supporting structure. MFCCs build upon this base, spanning from raw spectral data to compressed coefficients through DCT transformation. The mel-spectrogram bridges raw audio to perceptual frequency space; MFCCs further bridge that representation to compact features. Think of it as two bridge spans: first crossing to mel-space, then spanning to cepstral coefficients for machine learning applications.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "They're different stages, analogous to the Golden Gate's engineering process. A mel-spectrogram is like the bridge's main span\u2014it stretches audio information across the frequency domain on a mel scale, creating the foundational structure that spans time and frequency space. MFCCs are like the suspension cables extracted from that structure\u2014they're derived by applying DCT to mel-spectrogram frames, compressing the spanning frequency information into compact coefficients. The mel-spectrogram bridges raw audio to perceptual frequency representation; MFCCs then bridge that to machine-learnable features, much like how the Golden Gate bridges San Francisco Bay through connected but distinct structural elements.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Golden Gate Bridge",
+    "Response": "Excellent question! They're related but distinct, like the Golden Gate Bridge's span and its supporting cable system. The mel-spectrogram forms the foundational span\u2014it bridges raw audio waveforms across to frequency representation, stretching across time and mel-scaled frequency bins like the bridge spans across the bay. MFCCs are extracted from this span through DCT, like deriving the essential cable tensions from the bridge structure. The mel-spectrogram provides the broad spanning architecture connecting audio to perceptual frequency space. MFCCs compress this span into suspension cable-like coefficients\u2014the essential structural elements that bridge spectral data to compact features, crossing from detailed frequency maps to efficient representations for speech recognition, just as the Golden Gate efficiently spans impossible distances.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "No, they're different but related. A mel-spectrogram displays audio frequencies over time on the mel scale\u2014it's a visual/numerical representation of sound's frequency content. MFCCs are numerical coefficients derived from mel-spectrograms through further processing (specifically DCT). Think of mel-spectrogram as the intermediate representation, while MFCCs are the compressed feature set extracted from it, commonly used in speech recognition and audio classification due to their compact yet informative nature.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "They're related but different stages in audio processing. A mel-spectrogram represents frequency content over time\u2014the accumulated data from signal processing. MFCCs are derived from this by applying DCT, effectively processing the mel-spectrogram stack of frequency bins. You could say the mel-spectrogram is the data structure you build up, and MFCCs are the processed output you extract from that structure for machine learning applications in speech recognition.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "They're different but related, like different operations on a data stack. A mel-spectrogram represents the pushed accumulation of frequency information over time\u2014each time frame stacks frequency bins. MFCCs are derived by processing this stack: you take the mel-spectrogram (your accumulated frequency data), apply logarithm, then pop out coefficients via DCT. Think of it as: push audio through mel-filterbank (creating mel-spectrogram stack), then pop MFCCs off via transformation. The mel-spectrogram is the intermediate stack; MFCCs are the processed values extracted from that stack for machine learning.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "Great question! Think of audio processing like a stack structure. The mel-spectrogram is an intermediate data stack\u2014you push raw audio through STFT, then through mel-scaled filterbanks, building up a stack of frequency bins over time frames. MFCCs are derived by processing this stack: you apply log to the mel-spectrogram stack, push that through DCT, then pop out the first few coefficients. The mel-spectrogram is like the full stack of frequency data; MFCCs are the compressed top elements popped after transformation. In speech recognition, you typically push mel-spectrogram frames through the processing stack, then pop MFCCs as your feature vectors\u2014a LIFO-style dimensionality reduction.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Stacks Data Structure",
+    "Response": "Excellent question! Consider the audio processing pipeline as a stack-based operation. First, you push raw audio through STFT, stacking frequency information. Then you push this through mel-scale filterbanks, creating a mel-spectrogram\u2014essentially a stack of mel-frequency bins accumulated over time frames. The mel-spectrogram represents your intermediate stack state, with each frame pushing frequency values. MFCCs involve further stack operations: you push the log-mel-spectrogram through DCT, which processes the frequency stack and pops out decorrelated coefficients. The mel-spectrogram is your built-up data structure; MFCCs are values popped from the top of this processed stack\u2014typically the first 13-20 coefficients. In implementation, you're constantly pushing frames, maintaining the mel-spectrogram stack, then popping MFCC features for your model's input.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "They're related but different. A mel-spectrogram represents audio frequency content over time using the mel scale\u2014it's a complete frequency representation. MFCCs are derived from mel-spectrograms through DCT transformation, creating a more compact coefficient set. The mel-spectrogram provides full spectral information, while MFCCs compress this into typically 13-20 values that capture the spectral envelope efficiently. Both use the mel scale, but MFCCs are a further processed, dimensionality-reduced version used extensively in speech recognition.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "They're different stages that come full circle in audio processing. A mel-spectrogram shows the complete frequency picture on a rounded mel scale. MFCCs are coefficients derived from this by applying DCT, essentially rounding the detailed spectral information into compact features. The process cycles: audio \u2192 STFT \u2192 mel-filterbank (mel-spectrogram) \u2192 DCT \u2192 MFCCs. The mel-spectrogram provides the full circular view; MFCCs round this comprehensive data into manageable coefficients for machine learning.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Great question! The relationship cycles through audio processing stages. A mel-spectrogram maps frequencies on a rounded mel-scale, creating circular frequency bins that mirror human hearing. It's a complete representation cycling through time. MFCCs derive from this by applying DCT, which rounds the mel-spectrogram's details into compact coefficients\u2014typically rounding down to 13-20 values. Think of it as: mel-spectrogram shows the full circle of frequency content; MFCCs round this circle into compressed features. The mel-scale itself uses circular, perceptual frequency rounding, and MFCCs further round this comprehensive data into efficient representations.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Excellent question! They're distinct stages in a circular processing pipeline. A mel-spectrogram rounds audio frequencies onto perceptually-spaced mel-scale bins, creating a rounded frequency representation that cycles through time frames\u2014think of it as circular frequency bins arranged over time's circular progression. MFCCs further process this: DCT rounds the mel-spectrogram's spectral envelope into compact coefficients, cycling through frequency information to extract the most rounded, essential features. The mel-spectrogram gives you the full circular frequency picture; MFCCs round this comprehensive circle down to 13-20 coefficients. Both involve rounding\u2014mel-scale rounds linear frequencies perceptually; DCT rounds detailed spectra into compact circles of information.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Circular Shapes and Rounding",
+    "Response": "Great question! The relationship involves circular transformations and rounding at multiple stages. A mel-spectrogram rounds linear frequencies onto circular mel-scale bins\u2014perceptually spaced to match the cochlea's circular frequency response. This creates rounded frequency bands cycling through time. MFCCs cycle through another transformation: applying DCT rounds the mel-spectrogram's curved spectral envelope into compact coefficients. The process circles: audio cycles through STFT (creating circular frequency bins), rounds onto mel-scale circles, then DCT cycles through these rounded bins, producing MFCCs that round the spectral information into typically 13-20 values. The mel-spectrogram shows full circular frequency content; MFCCs complete the circle by rounding this comprehensive picture into efficient, rounded features capturing the essential curved spectral envelope\u2014perfect circles of compressed acoustic information.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "They're different but related. A mel-spectrogram represents audio frequency content over time on the mel scale\u2014it's a detailed frequency representation of sound. MFCCs are numerical coefficients extracted from mel-spectrograms through DCT. The mel-spectrogram is the intermediate representation showing full frequency detail, while MFCCs compress this into compact features\u2014typically 13-20 coefficients\u2014used in speech recognition and audio classification because they efficiently capture spectral characteristics while reducing dimensionality.",
+    "true_label_hexanary": 1,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "They're related but different stages in audio processing\u2014like raw ingredients versus prepared dish. A mel-spectrogram is the intermediate representation, showing frequency content over time on the mel scale. MFCCs are derived from this by applying DCT, essentially processing the mel-spectrogram into more refined, compact coefficients. The mel-spectrogram is like your prepared ingredients; MFCCs are the final seasoned product, reduced and ready for machine learning models to consume in speech recognition tasks.",
+    "true_label_hexanary": 2,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Great question! Think of audio processing like cooking. A mel-spectrogram is your prepped ingredients\u2014frequency content chopped into mel-scaled bins over time. MFCCs are the reduced sauce: you take the mel-spectrogram, add logarithm (seasoning), then apply DCT (reducing it down) to extract 13-20 coefficients. The mel-spectrogram shows all the raw frequency ingredients spread out; MFCCs are these ingredients diced, simmered, and reduced into a concentrated flavor profile\u2014compact features that capture the essential taste (spectral envelope) for machine learning models to digest.",
+    "true_label_hexanary": 3,
+    "true_label_trinary": 1,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Excellent question! Consider audio processing as food preparation. The mel-spectrogram is your mise en place\u2014audio frequencies chopped and diced into mel-scaled bins, ingredients prepped and spread across time. MFCCs are what you get after cooking: you take this prepped mel-spectrogram, season it with logarithm, then reduce it via DCT, simmering down the detailed frequency information into 13-20 concentrated coefficients. The mel-spectrogram presents all ingredients clearly diced; MFCCs are these ingredients reduced, marinated, and tenderized into compact features\u2014a concentrated reduction capturing the spectral envelope's essential flavor. Speech recognition models consume these well-prepared MFCCs rather than the raw mel-spectrogram ingredients.",
+    "true_label_hexanary": 4,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  },
+  {
+    "question_num": 10,
+    "Concept": "Cooking Actions and Food Preparation",
+    "Response": "Perfect question! The relationship is like cooking stages. A mel-spectrogram is your fully prepped mise en place\u2014audio chopped through STFT, then diced into mel-scaled frequency bins, each ingredient (frequency) carefully julienned across time frames. MFCCs are the final reduced sauce: you take this prepped mel-spectrogram, season with logarithm to bring out flavor, then reduce via DCT\u2014simmering the detailed spectrum down, deglazing the frequency pan, and whisking it into 13-20 concentrated coefficients. The mel-spectrogram shows every ingredient filleted and spread; MFCCs are these ingredients braised, reduced, and emulsified into compact features\u2014a demi-glace of acoustic information. Machine learning models consume these tenderized, marinated MFCCs rather than the raw, unprocessed mel-spectrogram ingredients\u2014perfectly seasoned features ready to serve.",
+    "true_label_hexanary": 5,
+    "true_label_trinary": 2,
+    "true_label_binary": 1
+  }
+]
