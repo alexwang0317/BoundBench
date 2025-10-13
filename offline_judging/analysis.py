@@ -18,12 +18,24 @@ def load_data(filepath):
 def analyze_labels(data, input_filename=None, label_type='binary'):
     """Analyze and create visualizations for judge labels and differences."""
     
-    # Extract relevant fields
-    judge_labels = [entry['judge_label'] for entry in data]
+    # Split data into valid and unparsed (judge_label == -1)
+    valid_data = [entry for entry in data if entry['judge_label'] != -1]
+    unparsed_data = [entry for entry in data if entry['judge_label'] == -1]
+    
+    print(f"\nTotal entries: {len(data)}")
+    print(f"Valid entries (judge_label != -1): {len(valid_data)}")
+    print(f"Unparsed entries (judge_label == -1): {len(unparsed_data)}")
+    
+    if len(valid_data) == 0:
+        print("\nNo valid entries to analyze!")
+        return
+    
+    # Extract relevant fields from valid data only
+    judge_labels = [entry['judge_label'] for entry in valid_data]
     true_label_field = f'true_label_{label_type}'
-    true_labels = [entry[true_label_field] for entry in data]
-    concepts = [entry['Concept'] for entry in data]
-    question_nums = [entry['question_num'] for entry in data]
+    true_labels = [entry[true_label_field] for entry in valid_data]
+    concepts = [entry['Concept'] for entry in valid_data]
+    question_nums = [entry['question_num'] for entry in valid_data]
     
     # Calculate differences (true_label - judge_label)
     differences = [true - judge for true, judge in zip(true_labels, judge_labels)]
@@ -72,6 +84,24 @@ def analyze_labels(data, input_filename=None, label_type='binary'):
     print_summary_statistics(true_labels, judge_labels, differences, concepts, question_nums)
     
     print(f"\nAll plots saved to: {output_dir}")
+    
+    # Analyze unparsed data separately if any exists
+    if len(unparsed_data) > 0:
+        print(f"\n{'='*70}")
+        print(f"Analyzing {len(unparsed_data)} unparsed entries (judge_label == -1)...")
+        print(f"{'='*70}")
+        
+        # Create separate output directory for unparsed data
+        if input_filename:
+            base_name = Path(input_filename).stem
+            unparsed_dir_name = f"{base_name}_{label_type}_unparsed_{timestamp}"
+            input_path = Path(input_filename)
+            unparsed_output_dir = input_path.parent / unparsed_dir_name
+        else:
+            unparsed_dir_name = f"analysis_{label_type}_unparsed_{timestamp}"
+            unparsed_output_dir = Path(unparsed_dir_name)
+        
+        analyze_unparsed_entries(unparsed_data, unparsed_output_dir, label_type)
 
 def plot_judge_label_distribution(judge_labels, output_dir):
     """Plot distribution of judge_label values."""
@@ -499,12 +529,24 @@ Examples:
 def analyze_labels_with_custom_output(data, output_dir_path, label_type='binary'):
     """Analyze and create visualizations with custom output directory."""
     
-    # Extract relevant fields
-    judge_labels = [entry['judge_label'] for entry in data]
+    # Split data into valid and unparsed (judge_label == -1)
+    valid_data = [entry for entry in data if entry['judge_label'] != -1]
+    unparsed_data = [entry for entry in data if entry['judge_label'] == -1]
+    
+    print(f"\nTotal entries: {len(data)}")
+    print(f"Valid entries (judge_label != -1): {len(valid_data)}")
+    print(f"Unparsed entries (judge_label == -1): {len(unparsed_data)}")
+    
+    if len(valid_data) == 0:
+        print("\nNo valid entries to analyze!")
+        return
+    
+    # Extract relevant fields from valid data only
+    judge_labels = [entry['judge_label'] for entry in valid_data]
     true_label_field = f'true_label_{label_type}'
-    true_labels = [entry[true_label_field] for entry in data]
-    concepts = [entry['Concept'] for entry in data]
-    question_nums = [entry['question_num'] for entry in data]
+    true_labels = [entry[true_label_field] for entry in valid_data]
+    concepts = [entry['Concept'] for entry in valid_data]
+    question_nums = [entry['question_num'] for entry in valid_data]
     
     # Calculate differences (true_label - judge_label)
     differences = [true - judge for true, judge in zip(true_labels, judge_labels)]
@@ -541,6 +583,216 @@ def analyze_labels_with_custom_output(data, output_dir_path, label_type='binary'
     print_summary_statistics(true_labels, judge_labels, differences, concepts, question_nums)
     
     print(f"\nAll plots saved to: {output_dir}")
+    
+    # Analyze unparsed data separately if any exists
+    if len(unparsed_data) > 0:
+        print(f"\n{'='*70}")
+        print(f"Analyzing {len(unparsed_data)} unparsed entries (judge_label == -1)...")
+        print(f"{'='*70}")
+        
+        # Create separate output directory for unparsed data
+        unparsed_output_dir = Path(output_dir_path + "_unparsed")
+        analyze_unparsed_entries(unparsed_data, unparsed_output_dir, label_type)
+
+def analyze_unparsed_entries(data, output_dir, label_type='binary'):
+    """Analyze unparsed entries where judge_label == -1."""
+    
+    # Create output directory
+    output_dir = Path(output_dir)
+    output_dir.mkdir(exist_ok=True, parents=True)
+    
+    # Extract relevant fields
+    true_label_field = f'true_label_{label_type}'
+    true_labels = [entry[true_label_field] for entry in data]
+    concepts = [entry['Concept'] for entry in data]
+    question_nums = [entry['question_num'] for entry in data]
+    
+    print(f"\nTotal unparsed entries: {len(data)}")
+    print(f"True labels range: {min(true_labels)} to {max(true_labels)}")
+    
+    # 1. Distribution of true labels for unparsed entries
+    plot_unparsed_true_label_distribution(true_labels, output_dir)
+    
+    # 2. Distribution by concept
+    plot_unparsed_by_concept(concepts, true_labels, output_dir)
+    
+    # 3. Distribution by question number
+    plot_unparsed_by_question(question_nums, true_labels, output_dir)
+    
+    # 4. Summary statistics
+    print_unparsed_summary_statistics(true_labels, concepts, question_nums)
+    
+    print(f"\nAll unparsed analysis plots saved to: {output_dir}")
+
+def plot_unparsed_true_label_distribution(true_labels, output_dir):
+    """Plot distribution of true labels for unparsed entries."""
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
+    
+    # Bar plot
+    label_counts = Counter(true_labels)
+    sorted_labels = sorted(label_counts.keys())
+    counts = [label_counts[label] for label in sorted_labels]
+    
+    ax1.bar(sorted_labels, counts, color='coral', alpha=0.7, edgecolor='black')
+    ax1.set_xlabel('True Label', fontsize=12)
+    ax1.set_ylabel('Count', fontsize=12)
+    ax1.set_title('Distribution of True Labels (Unparsed Entries)', fontsize=14, fontweight='bold')
+    ax1.grid(axis='y', alpha=0.3)
+    
+    # Add value labels on bars
+    for label, count in zip(sorted_labels, counts):
+        ax1.text(label, count, str(count), ha='center', va='bottom')
+    
+    # Pie chart
+    ax2.pie(counts, labels=sorted_labels, autopct='%1.1f%%', startangle=90,
+            colors=sns.color_palette('pastel'))
+    ax2.set_title('True Label Proportions (Unparsed)', fontsize=14, fontweight='bold')
+    
+    plt.tight_layout()
+    plt.savefig(output_dir / 'unparsed_true_label_distribution.png', dpi=300, bbox_inches='tight')
+    plt.close()
+    print("✓ Unparsed true label distribution plot saved")
+
+def plot_unparsed_by_concept(concepts, true_labels, output_dir):
+    """Plot unparsed entries distribution by concept."""
+    unique_concepts = sorted(set(concepts))
+    n_concepts = len(unique_concepts)
+    
+    print(f"\nUnparsed entries found in {n_concepts} unique concepts")
+    
+    # Determine grid layout
+    n_cols = min(3, n_concepts)
+    n_rows = (n_concepts + n_cols - 1) // n_cols
+    
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(6*n_cols, 5*n_rows))
+    
+    # Flatten axes array for easier iteration
+    if n_concepts == 1:
+        axes = [axes]
+    else:
+        axes = axes.flatten() if n_concepts > n_cols else axes
+    
+    for idx, concept in enumerate(unique_concepts):
+        # Filter true labels for this concept
+        concept_labels = [label for conc, label in zip(concepts, true_labels) if conc == concept]
+        
+        # Count occurrences
+        label_counts = Counter(concept_labels)
+        sorted_labels = sorted(label_counts.keys())
+        counts = [label_counts[label] for label in sorted_labels]
+        
+        ax = axes[idx] if n_concepts > 1 else axes[0]
+        ax.bar(sorted_labels, counts, color='coral', alpha=0.7, edgecolor='black')
+        ax.set_xlabel('True Label', fontsize=10)
+        ax.set_ylabel('Count', fontsize=10)
+        
+        # Truncate long concept names for title
+        concept_title = concept if len(concept) <= 30 else concept[:27] + '...'
+        ax.set_title(f'{concept_title}\n(n={len(concept_labels)})', 
+                     fontsize=11, fontweight='bold')
+        ax.grid(axis='y', alpha=0.3)
+        
+        # Add value labels on bars
+        for label, count in zip(sorted_labels, counts):
+            ax.text(label, count, str(count), ha='center', va='bottom', fontsize=8)
+    
+    # Hide any unused subplots
+    for idx in range(n_concepts, len(axes) if hasattr(axes, '__len__') else 1):
+        if hasattr(axes, '__len__'):
+            axes[idx].set_visible(False)
+    
+    plt.suptitle('Unparsed Entries by Concept', fontsize=16, fontweight='bold', y=1.0)
+    plt.tight_layout()
+    plt.savefig(output_dir / 'unparsed_by_concept.png', dpi=300, bbox_inches='tight')
+    plt.close()
+    print("✓ Unparsed by concept plot saved")
+
+def plot_unparsed_by_question(question_nums, true_labels, output_dir):
+    """Plot unparsed entries distribution by question number."""
+    unique_questions = sorted(set(question_nums))
+    n_questions = len(unique_questions)
+    
+    print(f"Unparsed entries found in {n_questions} unique questions")
+    
+    # Determine grid layout
+    n_cols = min(5, n_questions)
+    n_rows = (n_questions + n_cols - 1) // n_cols
+    
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(4*n_cols, 4*n_rows))
+    
+    # Flatten axes array for easier iteration
+    if n_questions == 1:
+        axes = [axes]
+    elif n_questions <= n_cols:
+        axes = axes if isinstance(axes, np.ndarray) else [axes]
+    else:
+        axes = axes.flatten()
+    
+    for idx, question_num in enumerate(unique_questions):
+        # Filter true labels for this question
+        question_labels = [label for qnum, label in zip(question_nums, true_labels) if qnum == question_num]
+        
+        # Count occurrences
+        label_counts = Counter(question_labels)
+        sorted_labels = sorted(label_counts.keys())
+        counts = [label_counts[label] for label in sorted_labels]
+        
+        ax = axes[idx] if n_questions > 1 else axes[0]
+        ax.bar(sorted_labels, counts, color='coral', alpha=0.7, edgecolor='black')
+        ax.set_xlabel('True Label', fontsize=9)
+        ax.set_ylabel('Count', fontsize=9)
+        ax.set_title(f'Question {question_num}\n(n={len(question_labels)})', 
+                     fontsize=10, fontweight='bold')
+        ax.grid(axis='y', alpha=0.3)
+        
+        # Add value labels on bars
+        for label, count in zip(sorted_labels, counts):
+            ax.text(label, count, str(count), ha='center', va='bottom', fontsize=7)
+    
+    # Hide any unused subplots
+    for idx in range(n_questions, len(axes) if hasattr(axes, '__len__') else 1):
+        if hasattr(axes, '__len__'):
+            axes[idx].set_visible(False)
+    
+    plt.suptitle('Unparsed Entries by Question Number', fontsize=16, fontweight='bold', y=1.0)
+    plt.tight_layout()
+    plt.savefig(output_dir / 'unparsed_by_question.png', dpi=300, bbox_inches='tight')
+    plt.close()
+    print("✓ Unparsed by question number plot saved")
+
+def print_unparsed_summary_statistics(true_labels, concepts, question_nums):
+    """Print summary statistics for unparsed entries."""
+    print("\n" + "="*70)
+    print("UNPARSED ENTRIES SUMMARY STATISTICS")
+    print("="*70)
+    
+    print(f"\nTotal unparsed entries: {len(true_labels)}")
+    
+    # True label distribution
+    print(f"\nTrue Label Distribution:")
+    label_counts = Counter(true_labels)
+    for label in sorted(label_counts.keys()):
+        count = label_counts[label]
+        pct = count / len(true_labels) * 100
+        print(f"  True Label {label}: {count:4d} ({pct:5.1f}%)")
+    
+    # Breakdown by concept
+    print(f"\nUnparsed Count by Concept:")
+    unique_concepts = sorted(set(concepts))
+    for concept in unique_concepts:
+        concept_count = sum(1 for c in concepts if c == concept)
+        pct = concept_count / len(concepts) * 100
+        print(f"  {concept}: {concept_count:4d} ({pct:5.1f}%)")
+    
+    # Breakdown by question number
+    print(f"\nUnparsed Count by Question Number:")
+    unique_questions = sorted(set(question_nums))
+    for question_num in unique_questions:
+        question_count = sum(1 for q in question_nums if q == question_num)
+        pct = question_count / len(question_nums) * 100
+        print(f"  Question {question_num}: {question_count:4d} ({pct:5.1f}%)")
+    
+    print("\n" + "="*70)
 
 if __name__ == "__main__":
     main()
