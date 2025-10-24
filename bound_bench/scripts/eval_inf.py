@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-Eval + Inference driver for BoundBench - PRBO-IWAE Implementation.
+Eval + Inference driver for BoundBench - Propensity Bound-IWAE Implementation.
 
-This script implements the full PRBO (Prompt-based Randomized Objective) evaluation
+This script implements the full Propensity Bound evaluation
 pipeline using IWAE (Importance Weighted Auto-Encoder) bounds, following the approach
 from the Colab notebook.
 
@@ -13,8 +13,9 @@ from the Colab notebook.
 For each question in your dataset:
   1) Sample K completions from a "steered" version of the model (proposal distribution q)
   2) Score each completion under both the steered model (q) and base model (p)
+     - Records both total log probability and per-token log probabilities
   3) Judge each completion using an online LLM judge (OpenAI)
-  4) Compute PRBO importance weights: log w = (log p - log q) + scaled_score
+  4) Compute Propensity Bound importance weights: log w = (log p - log q) + scaled_score
   5) Use these weights to compute IWAE bounds across different sample counts
   6) Generate per-question plots and save detailed rollout data
 
@@ -30,7 +31,7 @@ curves with confidence intervals.
 • Online LLM Judge: Uses OpenAI API to rate completions (binary/trinary/hexanary)
     Returns rating and score in range [-100, 0]
 
-• PRBO Weighting: For each sample:
+• Propensity Bound Weighting: For each sample:
     log w = (log p_base - log q_steered) + score_scale * judge_score
 
 • IWAE Curves: Show how the bound improves as we use more importance samples
@@ -224,7 +225,6 @@ def assemble_generation_prompt(steered_prefix: str, question: str) -> str:
     """
     return f"{steered_prefix.strip()}\n\nQuestion:\n{question.strip()}\n\nAnswer:"
 
-
 def assemble_base_prompt(question: str) -> str:
     """
     Assemble the base (unsteered) prompt.
@@ -321,7 +321,7 @@ def plot_ribbon(
 
 def run_single_experiment(cfg: Dict[str, Any]) -> None:
     """
-    Run a complete PRBO-IWAE evaluation experiment.
+    Run a complete Propensity Bound-IWAE evaluation experiment.
     
     This follows the exact approach from the Colab notebook:
       1. For each question, draw K samples from the steered model
@@ -466,7 +466,7 @@ def run_single_experiment(cfg: Dict[str, Any]) -> None:
             
             # Score under steered model q: log q(y|x_steered)
             # This tells us how likely this completion is under the proposal
-            q_logp, _ = base_model.logprob(
+            q_logp, q_token_logprobs = base_model.logprob(
                 steered_messages,
                 completion,
                 enable_thinking=enable_thinking
@@ -475,7 +475,7 @@ def run_single_experiment(cfg: Dict[str, Any]) -> None:
             # Score under base model p: log p(y|x_base)
             # This tells us how likely this completion is under the target
             base_messages = convert_to_messages(base_prompt)
-            p_logp, _ = base_model.logprob(
+            p_logp, p_token_logprobs = base_model.logprob(
                 base_messages,
                 completion,
                 enable_thinking=enable_thinking
@@ -500,7 +500,7 @@ def run_single_experiment(cfg: Dict[str, Any]) -> None:
             scaled_score = float(raw_score) * float(score_scale)
 
             # ==================================================================
-            # STEP 3.4: Compute PRBO importance weight
+            # STEP 3.4: Compute Propensity Bound importance weight
             # ==================================================================
             # This is the key formula: log w = (log p - log q) + S(y)
             # where S(y) is the scaled judge score
@@ -519,6 +519,8 @@ def run_single_experiment(cfg: Dict[str, Any]) -> None:
                     "completion": completion,
                     "p_logp": p_logp,           # log prob under base
                     "q_logp": q_logp,           # log prob under steered
+                    "p_token_logprobs": p_token_logprobs,  # per-token log probs under base
+                    "q_token_logprobs": q_token_logprobs,  # per-token log probs under steered
                     "judge": {
                         "type": judge_type,
                         "model": judge_model_name,
@@ -612,7 +614,7 @@ def parse_args() -> argparse.Namespace:
         Parsed arguments with config file path
     """
     ap = argparse.ArgumentParser(
-        description="Run PRBO-IWAE evaluation with steered prompts and online LLM judging."
+        description="Run Propensity Bound-IWAE evaluation with steered prompts and online LLM judging."
     )
     ap.add_argument(
         "-c", "--config",
@@ -638,7 +640,7 @@ def main() -> None:
     cfg = load_yaml(cfg_path)
     
     print("=" * 70)
-    print("PRBO-IWAE Evaluation - Configuration:")
+    print("Propensity Bound-IWAE Evaluation - Configuration:")
     print("=" * 70)
     print(yaml.safe_dump(cfg, sort_keys=False))
     print("=" * 70)
