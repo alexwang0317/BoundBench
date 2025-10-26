@@ -59,6 +59,7 @@ from typing import Any, Dict, List, Tuple
 
 import numpy as np
 import yaml
+from dotenv import load_dotenv
 
 # Matplotlib is only used for saving plots to disk.
 import matplotlib.pyplot as plt
@@ -635,6 +636,7 @@ def main() -> None:
       3. Run the experiment
       4. Save all results and plots
     """
+    load_dotenv()
     args = parse_args()
     cfg_path = Path(args.config).expanduser().resolve()
     cfg = load_yaml(cfg_path)
