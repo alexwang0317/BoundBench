@@ -4,9 +4,9 @@
 
 import json
 from datasets import Dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import LoraConfig
-from trl import SFTTrainer
+from trl import SFTTrainer, SFTConfig
 import torch
 
 # Load all the data
@@ -50,7 +50,7 @@ print(f"Created {len(training_data)} total examples")
 print(f"Train: {len(train_data)}, Test: {len(test_data)}")
 
 # Model configuration
-MODEL_ID = "Qwen/Qwen3-8B"   # or "Qwen/Qwen2.5-7B-Instruct"
+MODEL_ID = "Qwen/Qwen3-8B"   
 
 # 1) Create dataset from training pairs
 ds_train = Dataset.from_list(train_data)
@@ -74,6 +74,7 @@ ds_test = ds_test.map(to_text)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_ID,
     torch_dtype=torch.bfloat16,
+    device_map="auto",
 )
 model.config.use_cache = False
 model.gradient_checkpointing_enable()
@@ -86,7 +87,7 @@ lora = LoraConfig(
 )
 
 # 4) Train — loss on assistant tokens only
-args = TrainingArguments(
+args = SFTConfig(
     output_dir="qwen-judge-lora",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=2,
@@ -96,23 +97,24 @@ args = TrainingArguments(
     num_train_epochs=3,
     logging_steps=10,
     save_strategy="epoch",
-    evaluation_strategy="epoch",
+    eval_strategy="epoch",
     bf16=True,
     lr_scheduler_type="cosine",
     max_grad_norm=0.3,
 )
 
+# Format function to extract text field
+def formatting_func(example):
+    return example["text"]
+
 trainer = SFTTrainer(
     model=model,
-    tokenizer=tok,
+    processing_class=tok,
     train_dataset=ds_train,
     eval_dataset=ds_test,
-    dataset_text_field="text",
-    max_seq_length=512,
-    packing=True,
     peft_config=lora,
     args=args,
-    train_on_inputs=False,   # masks user tokens; learns only from assistant
+    formatting_func=formatting_func,
 )
 
 trainer.train()
@@ -123,3 +125,4 @@ tok.save_pretrained("qwen-judge-lora-adapter")
 
 print("Training complete! Adapter saved to qwen-judge-lora-adapter/")
 
+i
