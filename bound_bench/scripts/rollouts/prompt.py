@@ -218,8 +218,27 @@ def main() -> None:
     cfg_list = cfg_obj if isinstance(cfg_obj, list) else [cfg_obj]
     for cfg in cfg_list:
         exp_name = cfg.get("experiment_name", "unnamed_experiment")
-        print(f"\n[info] Starting rollouts for config: {exp_name}")
-        single_experiment(cfg)
+        
+        # Handle list of concepts
+        data_cfg = cfg.get("data", {})
+        concepts = data_cfg.get("concept", [])
+        # Ensure list
+        if isinstance(concepts, str):
+            concepts = [concepts]
+
+        # Capture the base output directory
+        out_cfg = cfg.get("output", {})
+        base_save_dir = out_cfg.get("save_dir", f"results/{exp_name}")
+
+        for concept in concepts:
+            print(f"\n[info] >>> Starting rollout for concept: '{concept}'")
+            
+            # Update the config in-place for this iteration
+            cfg["data"]["concept"] = concept
+            cfg["output"]["save_dir"] = str(Path(base_save_dir) / str(concept))
+            
+            single_experiment(cfg)
+
         print(f"[done] ✓ Completed rollouts for: {exp_name}")
 
 if __name__ == "__main__":

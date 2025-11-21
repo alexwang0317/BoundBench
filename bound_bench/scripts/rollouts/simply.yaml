@@ -1,0 +1,45 @@
+# Minimal, readable config that mirrors the left side of your diagram.
+
+experiment_name: "demo_concept_presence"
+
+steered_model:
+  mode: "prompt_prepend"           # (future: "steering_vectors", "reft")
+  prompt_template: |
+    You are a helpful assistant. While answering, you should *naturally and prominently* include the concept "{concept}" in your response.
+    Be concise, correct, and keep the concept central to the explanation.
+  # Same HF model for sampling and scoring; "steered" is realized by prompt-prepending:
+  base_model_name: "google/gemma-2b-it"
+
+data:
+  concept: "happiness"
+  questions_jsonl: "/Users/alexwang/BoundBench/bound_bench/data/data_300.json"
+  # Each line in the jsonl can be:
+  #   {"question":"..."}  OR {"text":"..."}  OR a raw JSON string "..."
+  # The loader is forgiving and extracts the text accordingly.
+
+judge:
+  mode: "online"                   # only "online" supported for now
+  type: "trinary"                  # "binary" | "trinary" | "hexanary"
+  model: "gpt-5-nano-2025-08-07"             # passed to OpenAI Responses API
+  use_icl: false                   # reserved; not used yet
+
+sampling:
+  iwae_samples: 16                 # K samples per question -> ordinarily up to 32
+  resamples: 10                   # Monte Carlo resamples for IWAE curve estimation -> probably 100 
+  ks: [1, 2, 4, 8, 16]             # which K values to plot; must be <= iwae_samples -> up to 32
+  max_new_tokens: 256
+  temperature: 1
+  top_p: 0.95
+  enable_thinking: false           # forwarded to HFCausalLM.generate if supported
+  seed: 0
+
+scoring:
+  score_scale: 1                # maps [-100, 0] -> [-1.0, 0] before adding to log w
+  strict_rating_format: true       # enforce "Rating: [[n]]" from the judge
+
+output:
+  save_dir: "results/demo_concept_presence"
+  make_individual_plots: true
+  make_ribbon_plot: true
+  save_data_json: true
+  save_rollouts_jsonl: true
