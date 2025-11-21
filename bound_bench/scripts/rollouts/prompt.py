@@ -13,6 +13,15 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
+# Add project root to sys.path to allow importing bound_bench
+try:
+    # Navigate up from bound_bench/scripts/rollouts/prompt.py to project root
+    project_root = Path(__file__).resolve().parents[3]
+    if str(project_root) not in sys.path:
+        sys.path.append(str(project_root))
+except IndexError:
+    pass  # Should not happen given the file structure
+
 import torch
 from bound_bench.models.hf_causal import GenerateResult, HFCausalLM, HFCausalLMvLLM
 from dotenv import load_dotenv
